@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace Sukol
 {
-    public partial class Form1 : Form
+    public partial class AnaSayfa : Form
     {
         Gorevli gorevli = new Gorevli();
-        public Form1()
+        public AnaSayfa()
         {
             InitializeComponent();
         }

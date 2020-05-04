@@ -1,6 +1,6 @@
 ﻿namespace Sukol
 {
-    partial class Form1
+    partial class AnaSayfa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaSayfa));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.öğrenciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.görevliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -89,7 +89,7 @@
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // AnaSayfa
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -101,7 +101,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "AnaSayfa";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
