@@ -98,6 +98,7 @@
             resources.ApplyResources(this.hakkimizda_button, "hakkimizda_button");
             this.hakkimizda_button.Name = "hakkimizda_button";
             this.hakkimizda_button.UseVisualStyleBackColor = true;
+            this.hakkimizda_button.Click += new System.EventHandler(this.hakkimizda_button_Click);
             // 
             // panel_ana_sayfa
             // 
