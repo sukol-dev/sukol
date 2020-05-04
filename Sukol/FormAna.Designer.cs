@@ -38,13 +38,13 @@
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
             this.panel_ana_sayfa = new System.Windows.Forms.Panel();
+            this.button_cikisYap = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button_girisyap = new System.Windows.Forms.Button();
             this.labelIsim = new System.Windows.Forms.Label();
             this.labelSoyIsim = new System.Windows.Forms.Label();
             this.labelIsimYazan = new System.Windows.Forms.Label();
             this.labelSoyIsimYazan = new System.Windows.Forms.Label();
-            this.button_cikisYap = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -98,6 +98,7 @@
             resources.ApplyResources(this.hakkimizda_button, "hakkimizda_button");
             this.hakkimizda_button.Name = "hakkimizda_button";
             this.hakkimizda_button.UseVisualStyleBackColor = true;
+            this.hakkimizda_button.Click += new System.EventHandler(this.hakkimizda_button_Click);
             // 
             // panel_ana_sayfa
             // 
@@ -108,6 +109,13 @@
             this.panel_ana_sayfa.Controls.Add(this.hakkimizda_button);
             resources.ApplyResources(this.panel_ana_sayfa, "panel_ana_sayfa");
             this.panel_ana_sayfa.Name = "panel_ana_sayfa";
+            // 
+            // button_cikisYap
+            // 
+            resources.ApplyResources(this.button_cikisYap, "button_cikisYap");
+            this.button_cikisYap.Name = "button_cikisYap";
+            this.button_cikisYap.UseVisualStyleBackColor = true;
+            this.button_cikisYap.Click += new System.EventHandler(this.button_cikisYap_Click);
             // 
             // button1
             // 
@@ -142,13 +150,6 @@
             // 
             resources.ApplyResources(this.labelSoyIsimYazan, "labelSoyIsimYazan");
             this.labelSoyIsimYazan.Name = "labelSoyIsimYazan";
-            // 
-            // button_cikisYap
-            // 
-            resources.ApplyResources(this.button_cikisYap, "button_cikisYap");
-            this.button_cikisYap.Name = "button_cikisYap";
-            this.button_cikisYap.UseVisualStyleBackColor = true;
-            this.button_cikisYap.Click += new System.EventHandler(this.button_cikisYap_Click);
             // 
             // FormAna
             // 

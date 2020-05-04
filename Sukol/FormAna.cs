@@ -78,5 +78,10 @@ namespace Sukol
             labelSoyIsim.Visible = false;
             labelSoyIsimYazan.Visible = false;
         }
+
+        private void hakkimizda_button_Click(object sender, EventArgs e)
+        {
+            new AboutWindow("Unknown Productions", "Sukol", "1.0");
+        }
     }
 }
