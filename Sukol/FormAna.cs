@@ -67,6 +67,7 @@ namespace Sukol
             ogretmen = new Ogretmen();
             ogrenci = new Ogrenci();
             kullanici = new Kullanici();
+            kullanici_id = 0;
             öğrenciToolStripMenuItem.Enabled = false;
             öğretmenToolStripMenuItem.Enabled = false;
             görevliToolStripMenuItem.Enabled = false;
