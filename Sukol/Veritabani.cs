@@ -8,11 +8,19 @@ namespace Sukol
     {
         OleDbConnection baglantim = new OleDbConnection("Provider= Microsoft.JET.OleDb.4.0;Data Source=" + Application.StartupPath + "\\sukol.mdb");
         private OleDbCommand komut;
-        public void sorguBaslat()
+        public void baslat()
         {
-            baglantim.Open();
+            try
+            {
+                baglantim.Open();
+            }
+            catch (Exception aciklama)
+            {
+                MessageBox.Show(aciklama.Message, "Bir hata oluştu!");
+                baglantim.Close();
+            }
         }
-        public void sorguYaz(string sorguCumlesi)
+        public void yaz(string sorguCumlesi)
         {
             try
             {
@@ -24,11 +32,11 @@ namespace Sukol
                 baglantim.Close();
             }
         }
-        public void sorguCalistir()
+        public void calistir()
         {
             komut.ExecuteNonQuery();
         }
-        public void sorguDurdur()
+        public void durdur()
         {
             baglantim.Close();
         }
