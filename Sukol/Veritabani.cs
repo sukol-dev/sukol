@@ -5,8 +5,9 @@ using System.Windows.Forms;
 namespace Sukol
 {
     /* 
-        veritabani.baslat();
         veritabani.sorgu(...);
+        veritabani.parametreEkle("key", value);
+        veritabani.baslat();
         veritabani.calistir();
         OleDbDataReader oku = veritabani.oku();
         while (oku.Read())
