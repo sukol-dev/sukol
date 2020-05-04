@@ -59,6 +59,7 @@
       <DependentUpon>FormGirisYap.cs</DependentUpon>
     </Compile>
     <Compile Include="Gorevli.cs" />
+    <Compile Include="Kullanici.cs" />
     <Compile Include="Ogrenci.cs" />
     <Compile Include="Ogretmen.cs" />
     <Compile Include="Program.cs" />

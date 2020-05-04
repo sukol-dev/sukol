@@ -144,12 +144,12 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
-  <data name="öğrenciToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="anaSayfaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 20</value>
   </data>
-  <data name="öğrenciToolStripMenuItem.Text" xml:space="preserve">
+  <data name="anaSayfaToolStripMenuItem.Text" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
   <data name="görevliToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
@@ -161,13 +161,13 @@
   <data name="görevliToolStripMenuItem.Text" xml:space="preserve">
     <value>Görevli</value>
   </data>
-  <data name="öğrenciToolStripMenuItem1.Enabled" type="System.Boolean, mscorlib">
+  <data name="öğrenciToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="öğrenciToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="öğrenciToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 20</value>
   </data>
-  <data name="öğrenciToolStripMenuItem1.Text" xml:space="preserve">
+  <data name="öğrenciToolStripMenuItem.Text" xml:space="preserve">
     <value>Öğrenci</value>
   </data>
   <data name="öğretmenToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
@@ -495,7 +495,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;sukol_icon.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="websitemiz_button.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
@@ -528,7 +528,7 @@
     <value>panel_ana_sayfa</value>
   </data>
   <data name="&gt;&gt;websitemiz_button.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="hakkimizda_button.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -561,54 +561,42 @@
     <value>panel_ana_sayfa</value>
   </data>
   <data name="&gt;&gt;hakkimizda_button.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;girisyap_button.Name" xml:space="preserve">
-    <value>girisyap_button</value>
-  </data>
-  <data name="&gt;&gt;girisyap_button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;girisyap_button.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;girisyap_button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="button_cikisYap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 203</value>
+  <data name="button_cikisYap.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 354</value>
+  <data name="button_cikisYap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="button_cikisYap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
+  <data name="button_cikisYap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 211</value>
+  </data>
+  <data name="button_cikisYap.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button_cikisYap.Text" xml:space="preserve">
+    <value>Çıkış yap</value>
+  </data>
+  <data name="button_cikisYap.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button_cikisYap.Name" xml:space="preserve">
+    <value>button_cikisYap</value>
+  </data>
+  <data name="&gt;&gt;button_cikisYap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_cikisYap.Parent" xml:space="preserve">
     <value>panel_ana_sayfa</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button_cikisYap.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="button1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -642,40 +630,190 @@
     <value>panel_ana_sayfa</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
-  <data name="girisyap_button.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="button_girisyap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="girisyap_button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="button_girisyap.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="girisyap_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="button_girisyap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="girisyap_button.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button_girisyap.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 49</value>
   </data>
-  <data name="girisyap_button.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button_girisyap.Size" type="System.Drawing.Size, System.Drawing">
     <value>1057, 258</value>
   </data>
-  <data name="girisyap_button.TabIndex" type="System.Int32, mscorlib">
+  <data name="button_girisyap.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="girisyap_button.Text" xml:space="preserve">
+  <data name="button_girisyap.Text" xml:space="preserve">
     <value>Giriş yap</value>
   </data>
-  <data name="&gt;&gt;girisyap_button.Name" xml:space="preserve">
-    <value>girisyap_button</value>
+  <data name="&gt;&gt;button_girisyap.Name" xml:space="preserve">
+    <value>button_girisyap</value>
   </data>
-  <data name="&gt;&gt;girisyap_button.Type" xml:space="preserve">
+  <data name="&gt;&gt;button_girisyap.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;girisyap_button.Parent" xml:space="preserve">
+  <data name="&gt;&gt;button_girisyap.Parent" xml:space="preserve">
     <value>panel_ana_sayfa</value>
   </data>
-  <data name="&gt;&gt;girisyap_button.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;button_girisyap.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 203</value>
+  </data>
+  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 354</value>
+  </data>
+  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
+    <value>panel_ana_sayfa</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelIsim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelIsim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 42</value>
+  </data>
+  <data name="labelIsim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="labelIsim.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelIsim.Text" xml:space="preserve">
+    <value>İsim:</value>
+  </data>
+  <data name="labelIsim.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelIsim.Name" xml:space="preserve">
+    <value>labelIsim</value>
+  </data>
+  <data name="&gt;&gt;labelIsim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelIsim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelIsim.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelSoyIsim.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSoyIsim.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSoyIsim.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 55</value>
+  </data>
+  <data name="labelSoyIsim.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 13</value>
+  </data>
+  <data name="labelSoyIsim.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="labelSoyIsim.Text" xml:space="preserve">
+    <value>Soyisim:</value>
+  </data>
+  <data name="labelSoyIsim.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsim.Name" xml:space="preserve">
+    <value>labelSoyIsim</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsim.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsim.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelIsimYazan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelIsimYazan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 42</value>
+  </data>
+  <data name="labelIsimYazan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="labelIsimYazan.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelIsimYazan.Text" xml:space="preserve">
+    <value>İsim</value>
+  </data>
+  <data name="labelIsimYazan.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelIsimYazan.Name" xml:space="preserve">
+    <value>labelIsimYazan</value>
+  </data>
+  <data name="&gt;&gt;labelIsimYazan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelIsimYazan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelIsimYazan.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="labelSoyIsimYazan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSoyIsimYazan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSoyIsimYazan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 55</value>
+  </data>
+  <data name="labelSoyIsimYazan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="labelSoyIsimYazan.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="labelSoyIsimYazan.Text" xml:space="preserve">
+    <value>Soyisim</value>
+  </data>
+  <data name="labelSoyIsimYazan.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsimYazan.Name" xml:space="preserve">
+    <value>labelSoyIsimYazan</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsimYazan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsimYazan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSoyIsimYazan.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2588,10 +2726,10 @@
   <data name="$this.Text" xml:space="preserve">
     <value>sukol</value>
   </data>
-  <data name="&gt;&gt;öğrenciToolStripMenuItem.Name" xml:space="preserve">
-    <value>öğrenciToolStripMenuItem</value>
+  <data name="&gt;&gt;anaSayfaToolStripMenuItem.Name" xml:space="preserve">
+    <value>anaSayfaToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;öğrenciToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;anaSayfaToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;görevliToolStripMenuItem.Name" xml:space="preserve">
@@ -2600,10 +2738,10 @@
   <data name="&gt;&gt;görevliToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;öğrenciToolStripMenuItem1.Name" xml:space="preserve">
-    <value>öğrenciToolStripMenuItem1</value>
+  <data name="&gt;&gt;öğrenciToolStripMenuItem.Name" xml:space="preserve">
+    <value>öğrenciToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;öğrenciToolStripMenuItem1.Type" xml:space="preserve">
+  <data name="&gt;&gt;öğrenciToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;öğretmenToolStripMenuItem.Name" xml:space="preserve">

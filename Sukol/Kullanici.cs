@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sukol
 {
-    class Gorevli:Kullanici
+    class Kullanici
     {
-        public bool erisim;
-        public void gorev()
-        {
-            Console.WriteLine("asd");
-        }
+        public string isim;
+        public string soyisim;
     }
 }
