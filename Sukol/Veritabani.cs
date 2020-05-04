@@ -5,8 +5,9 @@ using System.Windows.Forms;
 namespace Sukol
 {
     /* 
-        veritabani.baslat();
         veritabani.sorgu(...);
+        veritabani.parametreEkle("key", value);
+        veritabani.baslat();
         veritabani.calistir();
         OleDbDataReader oku = veritabani.oku();
         while (oku.Read())
@@ -50,6 +51,8 @@ namespace Sukol
         }
         public void calistir()
         {
+            // bugfix?? nasıl oldu bilinmiyor
+            komut.Parameters.AddWithValue("@bugfix", "bugfix");
             komut.ExecuteNonQuery();
         }
         public OleDbDataReader oku()
