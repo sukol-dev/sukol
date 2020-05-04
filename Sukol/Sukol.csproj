@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnaSayfa.cs">
+    <Compile Include="FormAna.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AnaSayfa.Designer.cs">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    <Compile Include="FormAna.Designer.cs">
+      <DependentUpon>FormAna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormGirisYap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGirisYap.Designer.cs">
+      <DependentUpon>FormGirisYap.cs</DependentUpon>
     </Compile>
     <Compile Include="Gorevli.cs" />
     <Compile Include="Ogrenci.cs" />
@@ -58,8 +64,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Veritabani.cs" />
-    <EmbeddedResource Include="AnaSayfa.resx">
-      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    <EmbeddedResource Include="FormAna.resx">
+      <DependentUpon>FormAna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormGirisYap.resx">
+      <DependentUpon>FormGirisYap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

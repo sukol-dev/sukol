@@ -4,6 +4,17 @@ using System.Windows.Forms;
 
 namespace Sukol
 {
+    /* 
+        veritabani.baslat();
+        veritabani.sorgu(...);
+        veritabani.calistir();
+        OleDbDataReader oku = veritabani.oku();
+        while (oku.Read())
+        {
+            ...
+        }
+        veritabani.kapat();
+    */
     class Veritabani
     {
         OleDbConnection baglantim = new OleDbConnection("Provider= Microsoft.JET.OleDb.4.0;Data Source=" + Application.StartupPath + "\\sukol.mdb");
@@ -20,7 +31,7 @@ namespace Sukol
                 baglantim.Close();
             }
         }
-        public void yaz(string sorguCumlesi)
+        public void sorgu(string sorguCumlesi)
         {
             try
             {
@@ -36,7 +47,11 @@ namespace Sukol
         {
             komut.ExecuteNonQuery();
         }
-        public void durdur()
+        public OleDbDataReader oku()
+        {
+            return komut.ExecuteReader();
+        }
+        public void kapat()
         {
             baglantim.Close();
         }

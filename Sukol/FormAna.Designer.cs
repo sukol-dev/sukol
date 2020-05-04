@@ -1,6 +1,6 @@
 ﻿namespace Sukol
 {
-    partial class AnaSayfa
+    partial class FormAna
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnaSayfa));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAna));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.öğrenciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.görevliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,9 +38,8 @@
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
             this.panel_ana_sayfa = new System.Windows.Forms.Panel();
-            this.girisyap_button = new System.Windows.Forms.Button();
-            this.panel_giris_yap = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.girisyap_button = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -104,18 +103,6 @@
             resources.ApplyResources(this.panel_ana_sayfa, "panel_ana_sayfa");
             this.panel_ana_sayfa.Name = "panel_ana_sayfa";
             // 
-            // girisyap_button
-            // 
-            resources.ApplyResources(this.girisyap_button, "girisyap_button");
-            this.girisyap_button.Name = "girisyap_button";
-            this.girisyap_button.UseVisualStyleBackColor = true;
-            this.girisyap_button.Click += new System.EventHandler(this.girisyap_button_Click);
-            // 
-            // panel_giris_yap
-            // 
-            resources.ApplyResources(this.panel_giris_yap, "panel_giris_yap");
-            this.panel_giris_yap.Name = "panel_giris_yap";
-            // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
@@ -123,19 +110,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // AnaSayfa
+            // girisyap_button
+            // 
+            resources.ApplyResources(this.girisyap_button, "girisyap_button");
+            this.girisyap_button.Name = "girisyap_button";
+            this.girisyap_button.UseVisualStyleBackColor = true;
+            this.girisyap_button.Click += new System.EventHandler(this.girisyap_button_Click);
+            // 
+            // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel_ana_sayfa);
-            this.Controls.Add(this.panel_giris_yap);
             this.Controls.Add(this.sukol_icon);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "AnaSayfa";
+            this.Name = "FormAna";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).EndInit();
@@ -157,7 +150,6 @@
         private System.Windows.Forms.Button hakkimizda_button;
         private System.Windows.Forms.Panel panel_ana_sayfa;
         private System.Windows.Forms.Button girisyap_button;
-        private System.Windows.Forms.Panel panel_giris_yap;
         private System.Windows.Forms.Button button1;
     }
 }
