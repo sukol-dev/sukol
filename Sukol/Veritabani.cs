@@ -35,13 +35,18 @@ namespace Sukol
         {
             try
             {
-                komut = new OleDbCommand(sorguCumlesi, baglantim);
+                komut = new OleDbCommand(@sorguCumlesi, baglantim);
             }
             catch (Exception aciklama)
             {
                 MessageBox.Show(aciklama.Message, "Bir hata oluştu!");
                 baglantim.Close();
             }
+        }
+
+        public void parametreEkle(string key, string value)
+        {
+            komut.Parameters.AddWithValue("@" + key, value);
         }
         public void calistir()
         {

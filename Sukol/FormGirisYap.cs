@@ -19,7 +19,6 @@ namespace Sukol
 
         private void button_giris_Click(object sender, EventArgs e)
         {
-            veritabani.baslat();
             veritabani.sorgu(
                 "select " +
                 " kullanicilar.id as kullanici_id," +
@@ -39,8 +38,11 @@ namespace Sukol
                 " left join ogretmenler on kullanicilar.id=ogretmenler.kullanici_id)" +
                 " left join gorevliler on kullanicilar.id=gorevliler.kullanici_id" +
 
-                " where kullanicilar.kullanici_adi='" + textBox_kullaniciAdi.Text + "' and kullanicilar.sifre='" + maskedTextBox_sifre.Text + "'"
+                " where kullanicilar.kullanici_adi=@kullanici_adi and kullanicilar.sifre=@sifre"
             );
+            veritabani.parametreEkle("kullaniciadi", textBox_kullaniciAdi.Text);
+            veritabani.parametreEkle("sifre", maskedTextBox_sifre.Text);
+            veritabani.baslat();
             veritabani.calistir();
             OleDbDataReader oku = veritabani.oku();
             bool giris = false;
