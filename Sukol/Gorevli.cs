@@ -48,6 +48,34 @@ namespace Sukol
 
             db.baslat();
             db.calistir();
+
+            string identity = "select @@IDENTITY from kullanicilar";
+            db.sorgu(identity);
+            db.calistir();
+            int kullaniciId = db.scalar();
+
+
+            if (k.ogrenci != null)
+            {
+                string sorgu_ogrenci = "INSERT INTO ogrenciler(okul_no, kullanici_id) " +
+                       "VALUES(@okul_no, @kullanici_id);";
+                db.sorgu(sorgu_ogrenci);
+                db.parametreEkle("okul_no", k.ogrenci.numara);
+                db.parametreEkle("kullanici_id", kullaniciId);
+                db.calistir();
+            }
+            if (k.ogretmen != null)
+            {
+                string sorgu_ogrenci = "INSERT INTO ogretmenler(sinif, kullanici_id) " +
+                       "VALUES(@sinif, @kullanici_id);";
+                db.sorgu(sorgu_ogrenci);
+                db.parametreEkle("sinif", k.ogretmen.sinif);
+                db.parametreEkle("kullanici_id", kullaniciId);
+                db.calistir();
+            }
+            if (k.gorevli != null)
+            {
+            }
             db.kapat();
         }
     }

@@ -59,6 +59,10 @@ namespace Sukol
         {
             return komut.ExecuteReader();
         }
+        public int scalar()
+        {
+            return (int)komut.ExecuteScalar();
+        }
         public void kapat()
         {
             baglantim.Close();
