@@ -54,7 +54,6 @@ namespace Sukol
 
             kullanici.profilfoto = profilfoto;
             if (File.Exists(profilfoto)) pictureBox_profilFoto.Image = Image.FromFile(@profilfoto);
-            else pictureBox_profilFoto.Image = null;
 
             button_profilFoto.Visible = true;
             pictureBox_profilFoto.Visible = true;
