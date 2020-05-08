@@ -144,6 +144,45 @@ namespace Sukol
             }
         }
 
+        private void FormAna_Load(object sender, EventArgs e)
+        {
+            int[] dizi = new int[6];
+            Random rnd = new Random();
+            for (int i = 0; i < 6; i++)
+            {
+                dizi[i] = rnd.Next(1, 49);
+            }
+            Array.Sort(dizi);
+            label_sansliSayi.Text = "Şanslı Sayılar:" + dizi[0].ToString() + "," + dizi[1].ToString() + "," + dizi[2].ToString() + "," + dizi[3].ToString() + "," + dizi[4].ToString() + "," + dizi[5].ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            int sayi1 = Convert.ToInt32(textBox1.Text);
+            int sayi2 = Convert.ToInt32(textBox2.Text);
+            double sonuc = 0;
+            if (radioButton1.Checked)
+                sonuc = sayi1 + sayi2;
+            else if (radioButton2.Checked)
+                sonuc = sayi1 - sayi2;
+            else if (radioButton4.Checked)
+                sonuc = sayi1 * sayi2;
+            else if (radioButton3.Checked)
+                if (sayi2 == 0)
+                {
+                    MessageBox.Show("Bölen 0 olamaz, başka bir rakam giriniz");
+                    textBox2.Clear();
+                }
+                else
+                    sonuc = sayi1 / sayi2;
+            label_hesapmakSonuc.Text = "Sonuc:" + sonuc.ToString();
+        }
+
+        private void hesapMakinesiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel_hesapMakinesi.BringToFront();
+        }
         private void button2_Click(object sender, EventArgs e)
         {
 
