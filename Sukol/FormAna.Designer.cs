@@ -52,11 +52,14 @@
             this.button_profilFoto = new System.Windows.Forms.Button();
             this.label_roller = new System.Windows.Forms.Label();
             this.label_rollerYazan = new System.Windows.Forms.Label();
+            this.panel_gorevli = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
             this.panel_ogrenci.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).BeginInit();
+            this.panel_gorevli.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -79,6 +82,7 @@
             // 
             resources.ApplyResources(this.görevliToolStripMenuItem, "görevliToolStripMenuItem");
             this.görevliToolStripMenuItem.Name = "görevliToolStripMenuItem";
+            this.görevliToolStripMenuItem.Click += new System.EventHandler(this.görevliToolStripMenuItem_Click);
             // 
             // öğrenciToolStripMenuItem
             // 
@@ -173,6 +177,7 @@
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox_profilFoto
             // 
@@ -202,10 +207,24 @@
             resources.ApplyResources(this.label_rollerYazan, "label_rollerYazan");
             this.label_rollerYazan.Name = "label_rollerYazan";
             // 
+            // panel_gorevli
+            // 
+            this.panel_gorevli.Controls.Add(this.button3);
+            resources.ApplyResources(this.panel_gorevli, "panel_gorevli");
+            this.panel_gorevli.Name = "panel_gorevli";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.label_rollerYazan);
             this.Controls.Add(this.label_roller);
             this.Controls.Add(this.button_profilFoto);
@@ -229,6 +248,7 @@
             this.panel_ana_sayfa.ResumeLayout(false);
             this.panel_ogrenci.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).EndInit();
+            this.panel_gorevli.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,6 +279,8 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog_profilFoto;
         private System.Windows.Forms.Label label_roller;
         private System.Windows.Forms.Label label_rollerYazan;
+        private System.Windows.Forms.Panel panel_gorevli;
+        private System.Windows.Forms.Button button3;
     }
 }
 

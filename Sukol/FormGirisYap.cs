@@ -47,6 +47,12 @@ namespace Sukol
             veritabani.calistir();
             OleDbDataReader oku = veritabani.oku();
             bool giris = false;
+            if (!oku.HasRows)
+            {
+                MessageBox.Show("Kullanıcı adı veya şifre hatalı", "Hata");
+                maskedTextBox_sifre.Text = "";
+            }
+
             while (oku.Read())
             {
                 if (!giris)
