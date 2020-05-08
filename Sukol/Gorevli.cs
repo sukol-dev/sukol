@@ -42,8 +42,6 @@ namespace Sukol
                 db.parametreEkle("gorevli", 1);
             }
 
-            //Harikasınız beyefendi! 0lyy şimdi push etmeli! :P hadi push edelimm!
-
             db.parametreEkle("isim", k.isim);
             db.parametreEkle("soyisim", k.soyisim);
             db.parametreEkle("profilfoto", "");
