@@ -52,7 +52,6 @@ namespace Sukol
 
         public void calistir()
         {
-            // bugfix?? nasıl oldu bilinmiyor
             komut.Parameters.AddWithValue("@bugfix", "bugfix");
             komut.ExecuteNonQuery();
         }

@@ -67,11 +67,23 @@
     </Compile>
     <Compile Include="Gorevli.cs" />
     <Compile Include="Kullanici.cs" />
-    <Compile Include="KullaniciEkle.cs">
+    <Compile Include="KullaniciEkleme\KullaniciEkle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KullaniciEkle.Designer.cs">
+    <Compile Include="KullaniciEkleme\KullaniciEkle.Designer.cs">
       <DependentUpon>KullaniciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciEkleme\OgrenciEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullaniciEkleme\OgrenciEkle.Designer.cs">
+      <DependentUpon>OgrenciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KullaniciEkleme\OgretmenEkle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KullaniciEkleme\OgretmenEkle.Designer.cs">
+      <DependentUpon>OgretmenEkle.cs</DependentUpon>
     </Compile>
     <Compile Include="Ogrenci.cs" />
     <Compile Include="Ogretmen.cs" />
@@ -88,8 +100,14 @@
     <EmbeddedResource Include="FormGirisYap.resx">
       <DependentUpon>FormGirisYap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KullaniciEkle.resx">
+    <EmbeddedResource Include="KullaniciEkleme\KullaniciEkle.resx">
       <DependentUpon>KullaniciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciEkleme\OgrenciEkle.resx">
+      <DependentUpon>OgrenciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KullaniciEkleme\OgretmenEkle.resx">
+      <DependentUpon>OgretmenEkle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
