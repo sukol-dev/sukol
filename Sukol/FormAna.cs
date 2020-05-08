@@ -128,7 +128,7 @@ namespace Sukol
             {
                 string path = openFileDialog_profilFoto.InitialDirectory + openFileDialog_profilFoto.FileName;
                 veritabani.sorgu("UPDATE kullanicilar SET profilfoto=@profilfoto WHERE id=@kullanici_id");
-                veritabani.parametreEkle("profilfoto", path);
+                veritabani.parametreEkle("profilfoto",  path);
                 veritabani.parametreEkle("kullanici_id", kullanici_id.ToString());
                 veritabani.baslat();
                 veritabani.calistir();
