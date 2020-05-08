@@ -25,6 +25,7 @@ namespace Sukol
 
                 " kullanicilar.isim as kullanici_isim," +
                 " kullanicilar.soyisim as kullanici_soyisim," +
+                " kullanicilar.profilfoto as profilfoto," +
 
                 " kullanicilar.ogrenci as kullanici_ogrenci," +
                 " kullanicilar.ogretmen as kullanici_ogretmen," +
@@ -52,13 +53,25 @@ namespace Sukol
                 {
                     FormAna formAna = (FormAna)Application.OpenForms["FormAna"];
                     formAna.kullanici_id = Convert.ToInt32(oku["kullanici_id"]);
+                    bool ogrenci = false;
+                    bool ogretmen = false;
+                    bool gorevli = false;
                     if (oku["kullanici_ogrenci"].ToString() == "True")
+                    {
+                        ogrenci = true;
                         formAna.ogrenciGiris(Convert.ToInt32(oku["ogrenci_okul_no"]));
+                    }
                     if (oku["kullanici_gorevli"].ToString() == "True")
+                    {
+                        gorevli = true;
                         formAna.gorevliGiris();
+                    }
                     if (oku["kullanici_ogretmen"].ToString() == "True")
+                    {
+                        ogretmen = true;
                         formAna.ogretmenGiris();
-                    formAna.kullaniciGiris(oku["kullanici_isim"].ToString(), oku["kullanici_soyisim"].ToString());
+                    }
+                    formAna.kullaniciGiris(oku["kullanici_isim"].ToString(), oku["kullanici_soyisim"].ToString(), oku["profilfoto"].ToString(), ogrenci, ogretmen, gorevli);
                 }
                 giris = true;
             }
