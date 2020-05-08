@@ -34,6 +34,7 @@
             this.görevliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğrenciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğretmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hesapMakinesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sukol_icon = new System.Windows.Forms.PictureBox();
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
@@ -55,18 +56,17 @@
             this.panel_gorevli = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.label_sansliSayi = new System.Windows.Forms.Label();
-            this.hesapMakinesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel_hesapMakinesi = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.label_hesapmakSonuc = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.button4 = new System.Windows.Forms.Button();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -97,6 +97,7 @@
             // 
             resources.ApplyResources(this.görevliToolStripMenuItem, "görevliToolStripMenuItem");
             this.görevliToolStripMenuItem.Name = "görevliToolStripMenuItem";
+            this.görevliToolStripMenuItem.Click += new System.EventHandler(this.görevliToolStripMenuItem_Click);
             // 
             // öğrenciToolStripMenuItem
             // 
@@ -108,6 +109,12 @@
             // 
             resources.ApplyResources(this.öğretmenToolStripMenuItem, "öğretmenToolStripMenuItem");
             this.öğretmenToolStripMenuItem.Name = "öğretmenToolStripMenuItem";
+            // 
+            // hesapMakinesiToolStripMenuItem
+            // 
+            this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
+            resources.ApplyResources(this.hesapMakinesiToolStripMenuItem, "hesapMakinesiToolStripMenuItem");
+            this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
             // 
             // sukol_icon
             // 
@@ -191,6 +198,7 @@
             resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox_profilFoto
             // 
@@ -231,17 +239,12 @@
             resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // label_sansliSayi
             // 
             resources.ApplyResources(this.label_sansliSayi, "label_sansliSayi");
             this.label_sansliSayi.Name = "label_sansliSayi";
-            // 
-            // hesapMakinesiToolStripMenuItem
-            // 
-            this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
-            resources.ApplyResources(this.hesapMakinesiToolStripMenuItem, "hesapMakinesiToolStripMenuItem");
-            this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
             // 
             // panel_hesapMakinesi
             // 
@@ -258,22 +261,25 @@
             resources.ApplyResources(this.panel_hesapMakinesi, "panel_hesapMakinesi");
             this.panel_hesapMakinesi.Name = "panel_hesapMakinesi";
             // 
-            // button4
-            // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label_hesapmakSonuc
             // 
             resources.ApplyResources(this.label_hesapmakSonuc, "label_hesapmakSonuc");
             this.label_hesapmakSonuc.Name = "label_hesapmakSonuc";
             // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
             // 
             // label2
             // 
@@ -294,6 +300,13 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // radioButton3
             // 
             resources.ApplyResources(this.radioButton3, "radioButton3");
@@ -308,24 +321,14 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // textBox1
-            // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
-            // 
-            // textBox2
-            // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
-            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_ana_sayfa);
             this.Controls.Add(this.panel_hesapMakinesi);
             this.Controls.Add(this.panel_ogrenci);
-            this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.label_sansliSayi);
             this.Controls.Add(this.label_rollerYazan);
             this.Controls.Add(this.label_roller);

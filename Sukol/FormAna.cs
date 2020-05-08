@@ -122,6 +122,11 @@ namespace Sukol
             panel_ana_sayfa.BringToFront();
         }
 
+        private void görevliToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel_gorevli.BringToFront();
+        }
+
         private void button3_Click(object sender, EventArgs e)
         {
             if (openFileDialog_profilFoto.ShowDialog(this) == DialogResult.OK)
@@ -177,6 +182,15 @@ namespace Sukol
         private void hesapMakinesiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panel_hesapMakinesi.BringToFront();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            new KullaniciEkle().ShowDialog();
         }
     }
 }

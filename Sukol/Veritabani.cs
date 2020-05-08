@@ -45,10 +45,11 @@ namespace Sukol
             }
         }
 
-        public void parametreEkle(string key, string value)
+        public void parametreEkle(string key, object value)
         {
             komut.Parameters.AddWithValue("@" + key, value);
         }
+
         public void calistir()
         {
             // bugfix?? nasıl oldu bilinmiyor
