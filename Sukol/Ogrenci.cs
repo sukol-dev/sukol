@@ -2,7 +2,7 @@
 
 namespace Sukol
 {
-    class Ogrenci:Kullanici
+    public class Ogrenci
     {
         public bool erisim;
         public int numara;

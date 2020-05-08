@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sukol
 {
-    class Ogretmen:Kullanici
+    public class Ogretmen
     {
         public bool erisim;
+        public string sinif;
     }
 }
