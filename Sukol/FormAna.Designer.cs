@@ -54,6 +54,16 @@
             this.label_roller = new System.Windows.Forms.Label();
             this.label_rollerYazan = new System.Windows.Forms.Label();
             this.panel_gorevli = new System.Windows.Forms.Panel();
+            this.button_YeniSinif = new System.Windows.Forms.Button();
+            this.textBox_yeniSinif = new System.Windows.Forms.TextBox();
+            this.label_yeniSinif = new System.Windows.Forms.Label();
+            this.listView_sinifOgretmen = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listView_sinifOgrenci = new System.Windows.Forms.ListView();
+            this.isim_soyisim = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.numara = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label_sinifOgretmenListesi = new System.Windows.Forms.Label();
+            this.label_sinifOgrenciListesi = new System.Windows.Forms.Label();
             this.label_siniflar = new System.Windows.Forms.Label();
             this.listBox_siniflar = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
@@ -69,16 +79,10 @@
             this.button4 = new System.Windows.Forms.Button();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.label_sinifOgrenciListesi = new System.Windows.Forms.Label();
-            this.label_sinifOgretmenListesi = new System.Windows.Forms.Label();
-            this.listView_sinifOgrenci = new System.Windows.Forms.ListView();
-            this.isim_soyisim = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.numara = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.listView_sinifOgretmen = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label_yeniSinif = new System.Windows.Forms.Label();
-            this.textBox_yeniSinif = new System.Windows.Forms.TextBox();
-            this.button_YeniSinif = new System.Windows.Forms.Button();
+            this.k_adi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.sifre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -255,6 +259,70 @@
             resources.ApplyResources(this.panel_gorevli, "panel_gorevli");
             this.panel_gorevli.Name = "panel_gorevli";
             // 
+            // button_YeniSinif
+            // 
+            resources.ApplyResources(this.button_YeniSinif, "button_YeniSinif");
+            this.button_YeniSinif.Name = "button_YeniSinif";
+            this.button_YeniSinif.UseVisualStyleBackColor = true;
+            this.button_YeniSinif.Click += new System.EventHandler(this.button_YeniSinif_Click);
+            // 
+            // textBox_yeniSinif
+            // 
+            resources.ApplyResources(this.textBox_yeniSinif, "textBox_yeniSinif");
+            this.textBox_yeniSinif.Name = "textBox_yeniSinif";
+            // 
+            // label_yeniSinif
+            // 
+            resources.ApplyResources(this.label_yeniSinif, "label_yeniSinif");
+            this.label_yeniSinif.Name = "label_yeniSinif";
+            // 
+            // listView_sinifOgretmen
+            // 
+            this.listView_sinifOgretmen.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3});
+            this.listView_sinifOgretmen.HideSelection = false;
+            resources.ApplyResources(this.listView_sinifOgretmen, "listView_sinifOgretmen");
+            this.listView_sinifOgretmen.Name = "listView_sinifOgretmen";
+            this.listView_sinifOgretmen.UseCompatibleStateImageBehavior = false;
+            this.listView_sinifOgretmen.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader1
+            // 
+            resources.ApplyResources(this.columnHeader1, "columnHeader1");
+            // 
+            // listView_sinifOgrenci
+            // 
+            this.listView_sinifOgrenci.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.isim_soyisim,
+            this.numara,
+            this.k_adi,
+            this.sifre});
+            this.listView_sinifOgrenci.HideSelection = false;
+            resources.ApplyResources(this.listView_sinifOgrenci, "listView_sinifOgrenci");
+            this.listView_sinifOgrenci.Name = "listView_sinifOgrenci";
+            this.listView_sinifOgrenci.UseCompatibleStateImageBehavior = false;
+            this.listView_sinifOgrenci.View = System.Windows.Forms.View.Details;
+            // 
+            // isim_soyisim
+            // 
+            resources.ApplyResources(this.isim_soyisim, "isim_soyisim");
+            // 
+            // numara
+            // 
+            resources.ApplyResources(this.numara, "numara");
+            // 
+            // label_sinifOgretmenListesi
+            // 
+            resources.ApplyResources(this.label_sinifOgretmenListesi, "label_sinifOgretmenListesi");
+            this.label_sinifOgretmenListesi.Name = "label_sinifOgretmenListesi";
+            // 
+            // label_sinifOgrenciListesi
+            // 
+            resources.ApplyResources(this.label_sinifOgrenciListesi, "label_sinifOgrenciListesi");
+            this.label_sinifOgrenciListesi.Name = "label_sinifOgrenciListesi";
+            // 
             // label_siniflar
             // 
             resources.ApplyResources(this.label_siniflar, "label_siniflar");
@@ -354,65 +422,21 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
-            // label_sinifOgrenciListesi
+            // k_adi
             // 
-            resources.ApplyResources(this.label_sinifOgrenciListesi, "label_sinifOgrenciListesi");
-            this.label_sinifOgrenciListesi.Name = "label_sinifOgrenciListesi";
+            resources.ApplyResources(this.k_adi, "k_adi");
             // 
-            // label_sinifOgretmenListesi
+            // sifre
             // 
-            resources.ApplyResources(this.label_sinifOgretmenListesi, "label_sinifOgretmenListesi");
-            this.label_sinifOgretmenListesi.Name = "label_sinifOgretmenListesi";
+            resources.ApplyResources(this.sifre, "sifre");
             // 
-            // listView_sinifOgrenci
+            // columnHeader2
             // 
-            this.listView_sinifOgrenci.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.isim_soyisim,
-            this.numara});
-            this.listView_sinifOgrenci.HideSelection = false;
-            resources.ApplyResources(this.listView_sinifOgrenci, "listView_sinifOgrenci");
-            this.listView_sinifOgrenci.Name = "listView_sinifOgrenci";
-            this.listView_sinifOgrenci.UseCompatibleStateImageBehavior = false;
-            this.listView_sinifOgrenci.View = System.Windows.Forms.View.Details;
+            resources.ApplyResources(this.columnHeader2, "columnHeader2");
             // 
-            // isim_soyisim
+            // columnHeader3
             // 
-            resources.ApplyResources(this.isim_soyisim, "isim_soyisim");
-            // 
-            // numara
-            // 
-            resources.ApplyResources(this.numara, "numara");
-            // 
-            // listView_sinifOgretmen
-            // 
-            this.listView_sinifOgretmen.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1});
-            this.listView_sinifOgretmen.HideSelection = false;
-            resources.ApplyResources(this.listView_sinifOgretmen, "listView_sinifOgretmen");
-            this.listView_sinifOgretmen.Name = "listView_sinifOgretmen";
-            this.listView_sinifOgretmen.UseCompatibleStateImageBehavior = false;
-            this.listView_sinifOgretmen.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            resources.ApplyResources(this.columnHeader1, "columnHeader1");
-            // 
-            // label_yeniSinif
-            // 
-            resources.ApplyResources(this.label_yeniSinif, "label_yeniSinif");
-            this.label_yeniSinif.Name = "label_yeniSinif";
-            // 
-            // textBox_yeniSinif
-            // 
-            resources.ApplyResources(this.textBox_yeniSinif, "textBox_yeniSinif");
-            this.textBox_yeniSinif.Name = "textBox_yeniSinif";
-            // 
-            // button_YeniSinif
-            // 
-            resources.ApplyResources(this.button_YeniSinif, "button_YeniSinif");
-            this.button_YeniSinif.Name = "button_YeniSinif";
-            this.button_YeniSinif.UseVisualStyleBackColor = true;
-            this.button_YeniSinif.Click += new System.EventHandler(this.button_YeniSinif_Click);
+            resources.ApplyResources(this.columnHeader3, "columnHeader3");
             // 
             // FormAna
             // 
@@ -506,6 +530,10 @@
         private System.Windows.Forms.Button button_YeniSinif;
         private System.Windows.Forms.TextBox textBox_yeniSinif;
         private System.Windows.Forms.Label label_yeniSinif;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader k_adi;
+        private System.Windows.Forms.ColumnHeader sifre;
     }
 }
 

@@ -217,6 +217,8 @@ namespace Sukol
 
                 " kullanicilar.isim as isim," +
                 " kullanicilar.soyisim as soyisim," +
+                " kullanicilar.kullanici_adi as kullanici_adi," +
+                " kullanicilar.sifre as sifre," +
 
                 " ogrenciler.okul_no as okul_no" +
 
@@ -231,7 +233,9 @@ namespace Sukol
             {
                 string[] bilgiler = {
                     oku["isim"].ToString()+" "+oku["soyisim"].ToString(),
-                    oku["okul_no"].ToString()
+                    oku["okul_no"].ToString(),
+                    oku["kullanici_adi"].ToString(),
+                    oku["sifre"].ToString()
                 };
                 ListViewItem list = new ListViewItem(bilgiler);
                 listView_sinifOgrenci.Items.Add(list);
@@ -242,7 +246,9 @@ namespace Sukol
                 "select" +
 
                 " kullanicilar.isim as isim," +
-                " kullanicilar.soyisim as soyisim" +
+                " kullanicilar.soyisim as soyisim," +
+                " kullanicilar.kullanici_adi as kullanici_adi," +
+                " kullanicilar.sifre as sifre" +
 
                 " from kullanicilar" +
                 " left join ogretmenler on kullanicilar.id=ogretmenler.kullanici_id" +
@@ -254,7 +260,9 @@ namespace Sukol
             while (oku.Read())
             {
                 string[] bilgiler = {
-                    oku["isim"].ToString()+oku["soyisim"].ToString()
+                    oku["isim"].ToString()+oku["soyisim"].ToString(),
+                    oku["kullanici_adi"].ToString(),
+                    oku["sifre"].ToString()
                 };
                 ListViewItem list = new ListViewItem(bilgiler);
                 listView_sinifOgretmen.Items.Add(list);
