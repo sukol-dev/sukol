@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.group_ogretmen = new System.Windows.Forms.GroupBox();
-            this.tb_sinif = new System.Windows.Forms.TextBox();
             this.label_sinif = new System.Windows.Forms.Label();
+            this.cb_sinif = new System.Windows.Forms.ComboBox();
             this.group_ogretmen.SuspendLayout();
             this.SuspendLayout();
             // 
             // group_ogretmen
             // 
             this.group_ogretmen.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.group_ogretmen.Controls.Add(this.tb_sinif);
+            this.group_ogretmen.Controls.Add(this.cb_sinif);
             this.group_ogretmen.Controls.Add(this.label_sinif);
             this.group_ogretmen.Location = new System.Drawing.Point(3, 3);
             this.group_ogretmen.Name = "group_ogretmen";
@@ -45,13 +45,6 @@
             this.group_ogretmen.TabIndex = 1;
             this.group_ogretmen.TabStop = false;
             this.group_ogretmen.Text = "Öğretmen Bilgileri";
-            // 
-            // tb_sinif
-            // 
-            this.tb_sinif.Location = new System.Drawing.Point(53, 23);
-            this.tb_sinif.Name = "tb_sinif";
-            this.tb_sinif.Size = new System.Drawing.Size(100, 20);
-            this.tb_sinif.TabIndex = 1;
             // 
             // label_sinif
             // 
@@ -62,6 +55,14 @@
             this.label_sinif.Size = new System.Drawing.Size(27, 13);
             this.label_sinif.TabIndex = 0;
             this.label_sinif.Text = "Sınıf";
+            // 
+            // cb_sinif
+            // 
+            this.cb_sinif.FormattingEnabled = true;
+            this.cb_sinif.Location = new System.Drawing.Point(53, 23);
+            this.cb_sinif.Name = "cb_sinif";
+            this.cb_sinif.Size = new System.Drawing.Size(121, 21);
+            this.cb_sinif.TabIndex = 1;
             // 
             // OgretmenEkle
             // 
@@ -82,6 +83,6 @@
 
         private System.Windows.Forms.GroupBox group_ogretmen;
         private System.Windows.Forms.Label label_sinif;
-        public System.Windows.Forms.TextBox tb_sinif;
+        public System.Windows.Forms.ComboBox cb_sinif;
     }
 }
