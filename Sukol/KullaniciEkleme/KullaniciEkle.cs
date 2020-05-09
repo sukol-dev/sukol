@@ -40,12 +40,13 @@ namespace Sukol.KullaniciEkleme
             {
                 kullanici.ogrenci = new Ogrenci();
                 kullanici.ogrenci.numara = Convert.ToInt32(ogrenciEkle.tb_no.Text);
+                kullanici.ogrenci.sinif = ogrenciEkle.cb_sinif.GetItemText(ogrenciEkle.cb_sinif.SelectedItem);
             }
 
             if (checkBox_ogretmen.Checked)
             {
                 kullanici.ogretmen = new Ogretmen();
-                kullanici.ogretmen.sinif = ogretmenEkle.tb_sinif.Text;
+                kullanici.ogretmen.sinif = ogretmenEkle.cb_sinif.GetItemText(ogretmenEkle.cb_sinif.SelectedItem);
             }
 
             kullanici.isim = textBox_ad.Text;
@@ -68,7 +69,7 @@ namespace Sukol.KullaniciEkleme
                 return false;
             }
 
-            if(textBox_ad.Text.Trim().Length < 2 &&
+            if (textBox_ad.Text.Trim().Length < 2 &&
                 textBox_soyad.Text.Trim().Length < 2 &&
                 textBox_kullaniciAdi.Text.Trim().Length < 2 &&
                 maskedTextBox_sifre.Text.Trim().Length < 2)
@@ -77,15 +78,9 @@ namespace Sukol.KullaniciEkleme
                 return false;
             }
 
-            if(checkBox_ogrenci.Checked && ogrenciEkle.tb_no.Text.Trim().Length < 1)
+            if (checkBox_ogrenci.Checked && ogrenciEkle.tb_no.Text.Trim().Length < 1)
             {
                 MessageBox.Show("Ogrenci bilgilerini dogru girin", "Hata");
-                return false;
-            }
-
-            if (checkBox_ogretmen.Checked && ogretmenEkle.tb_sinif.Text.Trim().Length < 2)
-            {
-                MessageBox.Show("Ogretmen bilgilerini dogru girin", "Hata");
                 return false;
             }
 
@@ -107,10 +102,15 @@ namespace Sukol.KullaniciEkleme
 
         private void checkBox_ogretmen_CheckedChanged(object sender, EventArgs e)
         {
-            if(((CheckBox)sender).Checked)
+            if (((CheckBox)sender).Checked)
             {
                 ogretmenEkle = new OgretmenEkle();
                 panel_rol_giris.Controls.Add(ogretmenEkle);
+                string[] siniflar = gorevli.siniflar();
+                ogretmenEkle.cb_sinif.Items.Clear();
+                for (int i = 0; i < siniflar.Length; i++)
+                    ogretmenEkle.cb_sinif.Items.Add(siniflar[i]);
+                ogretmenEkle.cb_sinif.SelectedIndex = 0;
             }
             else
             {
@@ -124,6 +124,11 @@ namespace Sukol.KullaniciEkleme
             {
                 ogrenciEkle = new OgrenciEkle();
                 panel_rol_giris.Controls.Add(ogrenciEkle);
+                string[] siniflar = gorevli.siniflar();
+                ogrenciEkle.cb_sinif.Items.Clear();
+                for (int i = 0; i < siniflar.Length; i++)
+                    ogrenciEkle.cb_sinif.Items.Add(siniflar[i]);
+                ogrenciEkle.cb_sinif.SelectedIndex = 0;
             }
             else
             {

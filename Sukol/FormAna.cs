@@ -126,6 +126,10 @@ namespace Sukol
         private void görevliToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panel_gorevli.BringToFront();
+            string[] siniflar = gorevli.siniflar();
+            listBox_siniflar.Items.Clear();
+            for (int i = 0; i < siniflar.Length; i++)
+                listBox_siniflar.Items.Add(siniflar[i]);
         }
 
         private void button3_Click(object sender, EventArgs e)

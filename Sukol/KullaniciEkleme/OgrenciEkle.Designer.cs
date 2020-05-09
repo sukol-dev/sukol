@@ -29,14 +29,18 @@
         private void InitializeComponent()
         {
             this.group_ogrenci = new System.Windows.Forms.GroupBox();
-            this.label_no = new System.Windows.Forms.Label();
             this.tb_no = new System.Windows.Forms.TextBox();
+            this.label_no = new System.Windows.Forms.Label();
+            this.label_sinif = new System.Windows.Forms.Label();
+            this.cb_sinif = new System.Windows.Forms.ComboBox();
             this.group_ogrenci.SuspendLayout();
             this.SuspendLayout();
             // 
             // group_ogrenci
             // 
             this.group_ogrenci.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.group_ogrenci.Controls.Add(this.cb_sinif);
+            this.group_ogrenci.Controls.Add(this.label_sinif);
             this.group_ogrenci.Controls.Add(this.tb_no);
             this.group_ogrenci.Controls.Add(this.label_no);
             this.group_ogrenci.Location = new System.Drawing.Point(3, 3);
@@ -45,6 +49,13 @@
             this.group_ogrenci.TabIndex = 0;
             this.group_ogrenci.TabStop = false;
             this.group_ogrenci.Text = "Öğrenci Bilgileri";
+            // 
+            // tb_no
+            // 
+            this.tb_no.Location = new System.Drawing.Point(72, 23);
+            this.tb_no.Name = "tb_no";
+            this.tb_no.Size = new System.Drawing.Size(100, 20);
+            this.tb_no.TabIndex = 1;
             // 
             // label_no
             // 
@@ -56,12 +67,23 @@
             this.label_no.TabIndex = 0;
             this.label_no.Text = "Okul No";
             // 
-            // tb_no
+            // label_sinif
             // 
-            this.tb_no.Location = new System.Drawing.Point(72, 23);
-            this.tb_no.Name = "tb_no";
-            this.tb_no.Size = new System.Drawing.Size(100, 20);
-            this.tb_no.TabIndex = 1;
+            this.label_sinif.AutoSize = true;
+            this.label_sinif.Location = new System.Drawing.Point(13, 52);
+            this.label_sinif.Margin = new System.Windows.Forms.Padding(10);
+            this.label_sinif.Name = "label_sinif";
+            this.label_sinif.Size = new System.Drawing.Size(27, 13);
+            this.label_sinif.TabIndex = 2;
+            this.label_sinif.Text = "Sınıf";
+            // 
+            // cb_sinif
+            // 
+            this.cb_sinif.FormattingEnabled = true;
+            this.cb_sinif.Location = new System.Drawing.Point(72, 49);
+            this.cb_sinif.Name = "cb_sinif";
+            this.cb_sinif.Size = new System.Drawing.Size(100, 21);
+            this.cb_sinif.TabIndex = 4;
             // 
             // OgrenciEkle
             // 
@@ -83,5 +105,7 @@
         private System.Windows.Forms.GroupBox group_ogrenci;
         private System.Windows.Forms.Label label_no;
         public System.Windows.Forms.TextBox tb_no;
+        private System.Windows.Forms.Label label_sinif;
+        public System.Windows.Forms.ComboBox cb_sinif;
     }
 }

@@ -6,5 +6,6 @@ namespace Sukol
     {
         public bool erisim;
         public int numara;
+        public string sinif;
     }
 }

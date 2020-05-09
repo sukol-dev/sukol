@@ -15,6 +15,7 @@ namespace Sukol.KullaniciEkleme
         public OgrenciEkle()
         {
             InitializeComponent();
+            cb_sinif.DropDownStyle = ComboBoxStyle.DropDownList;
         }
     }
 }

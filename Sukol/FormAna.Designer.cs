@@ -67,6 +67,8 @@
             this.button4 = new System.Windows.Forms.Button();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.listBox_siniflar = new System.Windows.Forms.ListBox();
+            this.label_siniflar = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -230,6 +232,8 @@
             // 
             // panel_gorevli
             // 
+            this.panel_gorevli.Controls.Add(this.label_siniflar);
+            this.panel_gorevli.Controls.Add(this.listBox_siniflar);
             this.panel_gorevli.Controls.Add(this.button3);
             resources.ApplyResources(this.panel_gorevli, "panel_gorevli");
             this.panel_gorevli.Name = "panel_gorevli";
@@ -321,6 +325,17 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
+            // listBox_siniflar
+            // 
+            this.listBox_siniflar.FormattingEnabled = true;
+            resources.ApplyResources(this.listBox_siniflar, "listBox_siniflar");
+            this.listBox_siniflar.Name = "listBox_siniflar";
+            // 
+            // label_siniflar
+            // 
+            resources.ApplyResources(this.label_siniflar, "label_siniflar");
+            this.label_siniflar.Name = "label_siniflar";
+            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
@@ -353,6 +368,7 @@
             this.panel_ogrenci.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).EndInit();
             this.panel_gorevli.ResumeLayout(false);
+            this.panel_gorevli.PerformLayout();
             this.panel_hesapMakinesi.ResumeLayout(false);
             this.panel_hesapMakinesi.PerformLayout();
             this.ResumeLayout(false);
@@ -400,6 +416,8 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_siniflar;
+        private System.Windows.Forms.ListBox listBox_siniflar;
     }
 }
 
