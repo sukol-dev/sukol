@@ -34,7 +34,6 @@
             this.görevliToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğrenciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.öğretmenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hesapMakinesiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sukol_icon = new System.Windows.Forms.PictureBox();
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
@@ -83,6 +82,17 @@
             this.sifre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button_duyuruEkle = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.openFileDialog_radyo = new System.Windows.Forms.OpenFileDialog();
+            this.diğerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hesapMakinesiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.okulRadyosuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel_okulRadyo = new System.Windows.Forms.Panel();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.button_duraklat = new System.Windows.Forms.Button();
+            this.button_oynat = new System.Windows.Forms.Button();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -90,6 +100,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).BeginInit();
             this.panel_gorevli.SuspendLayout();
             this.panel_hesapMakinesi.SuspendLayout();
+            this.panel_okulRadyo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -99,7 +112,7 @@
             this.görevliToolStripMenuItem,
             this.öğrenciToolStripMenuItem,
             this.öğretmenToolStripMenuItem,
-            this.hesapMakinesiToolStripMenuItem});
+            this.diğerToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
             // 
@@ -125,12 +138,6 @@
             // 
             resources.ApplyResources(this.öğretmenToolStripMenuItem, "öğretmenToolStripMenuItem");
             this.öğretmenToolStripMenuItem.Name = "öğretmenToolStripMenuItem";
-            // 
-            // hesapMakinesiToolStripMenuItem
-            // 
-            this.hesapMakinesiToolStripMenuItem.Name = "hesapMakinesiToolStripMenuItem";
-            resources.ApplyResources(this.hesapMakinesiToolStripMenuItem, "hesapMakinesiToolStripMenuItem");
-            this.hesapMakinesiToolStripMenuItem.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem_Click);
             // 
             // sukol_icon
             // 
@@ -246,6 +253,8 @@
             // 
             // panel_gorevli
             // 
+            this.panel_gorevli.Controls.Add(this.button5);
+            this.panel_gorevli.Controls.Add(this.button_duyuruEkle);
             this.panel_gorevli.Controls.Add(this.button_YeniSinif);
             this.panel_gorevli.Controls.Add(this.textBox_yeniSinif);
             this.panel_gorevli.Controls.Add(this.label_yeniSinif);
@@ -438,10 +447,85 @@
             // 
             resources.ApplyResources(this.columnHeader3, "columnHeader3");
             // 
+            // button_duyuruEkle
+            // 
+            resources.ApplyResources(this.button_duyuruEkle, "button_duyuruEkle");
+            this.button_duyuruEkle.Name = "button_duyuruEkle";
+            this.button_duyuruEkle.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // openFileDialog_radyo
+            // 
+            this.openFileDialog_radyo.FileName = "openFileDialog1";
+            resources.ApplyResources(this.openFileDialog_radyo, "openFileDialog_radyo");
+            // 
+            // diğerToolStripMenuItem
+            // 
+            this.diğerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hesapMakinesiToolStripMenuItem1,
+            this.okulRadyosuToolStripMenuItem1});
+            this.diğerToolStripMenuItem.Name = "diğerToolStripMenuItem";
+            resources.ApplyResources(this.diğerToolStripMenuItem, "diğerToolStripMenuItem");
+            // 
+            // hesapMakinesiToolStripMenuItem1
+            // 
+            this.hesapMakinesiToolStripMenuItem1.Name = "hesapMakinesiToolStripMenuItem1";
+            resources.ApplyResources(this.hesapMakinesiToolStripMenuItem1, "hesapMakinesiToolStripMenuItem1");
+            this.hesapMakinesiToolStripMenuItem1.Click += new System.EventHandler(this.hesapMakinesiToolStripMenuItem1_Click);
+            // 
+            // okulRadyosuToolStripMenuItem1
+            // 
+            this.okulRadyosuToolStripMenuItem1.Name = "okulRadyosuToolStripMenuItem1";
+            resources.ApplyResources(this.okulRadyosuToolStripMenuItem1, "okulRadyosuToolStripMenuItem1");
+            this.okulRadyosuToolStripMenuItem1.Click += new System.EventHandler(this.okulRadyosuToolStripMenuItem1_Click);
+            // 
+            // panel_okulRadyo
+            // 
+            this.panel_okulRadyo.Controls.Add(this.trackBar1);
+            this.panel_okulRadyo.Controls.Add(this.button_oynat);
+            this.panel_okulRadyo.Controls.Add(this.button_duraklat);
+            this.panel_okulRadyo.Controls.Add(this.axWindowsMediaPlayer1);
+            resources.ApplyResources(this.panel_okulRadyo, "panel_okulRadyo");
+            this.panel_okulRadyo.Name = "panel_okulRadyo";
+            // 
+            // axWindowsMediaPlayer1
+            // 
+            resources.ApplyResources(this.axWindowsMediaPlayer1, "axWindowsMediaPlayer1");
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            // 
+            // button_duraklat
+            // 
+            resources.ApplyResources(this.button_duraklat, "button_duraklat");
+            this.button_duraklat.Name = "button_duraklat";
+            this.button_duraklat.UseVisualStyleBackColor = true;
+            this.button_duraklat.Click += new System.EventHandler(this.button_duraklat_Click);
+            // 
+            // button_oynat
+            // 
+            resources.ApplyResources(this.button_oynat, "button_oynat");
+            this.button_oynat.Name = "button_oynat";
+            this.button_oynat.UseVisualStyleBackColor = true;
+            this.button_oynat.Click += new System.EventHandler(this.button_oynat_Click);
+            // 
+            // trackBar1
+            // 
+            resources.ApplyResources(this.trackBar1, "trackBar1");
+            this.trackBar1.Maximum = 100;
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.panel_okulRadyo);
             this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_ana_sayfa);
             this.Controls.Add(this.panel_hesapMakinesi);
@@ -473,6 +557,10 @@
             this.panel_gorevli.PerformLayout();
             this.panel_hesapMakinesi.ResumeLayout(false);
             this.panel_hesapMakinesi.PerformLayout();
+            this.panel_okulRadyo.ResumeLayout(false);
+            this.panel_okulRadyo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -506,7 +594,6 @@
         private System.Windows.Forms.Panel panel_gorevli;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label_sansliSayi;
-        private System.Windows.Forms.ToolStripMenuItem hesapMakinesiToolStripMenuItem;
         private System.Windows.Forms.Panel panel_hesapMakinesi;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_hesapmakSonuc;
@@ -534,6 +621,17 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader k_adi;
         private System.Windows.Forms.ColumnHeader sifre;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button_duyuruEkle;
+        private System.Windows.Forms.OpenFileDialog openFileDialog_radyo;
+        private System.Windows.Forms.ToolStripMenuItem diğerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hesapMakinesiToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem okulRadyosuToolStripMenuItem1;
+        private System.Windows.Forms.Panel panel_okulRadyo;
+        private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Button button_oynat;
+        private System.Windows.Forms.Button button_duraklat;
     }
 }
 

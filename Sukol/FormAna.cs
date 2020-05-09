@@ -185,10 +185,6 @@ namespace Sukol
             label_hesapmakSonuc.Text = "Sonuc:" + sonuc.ToString();
         }
 
-        private void hesapMakinesiToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            panel_hesapMakinesi.BringToFront();
-        }
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -309,6 +305,42 @@ namespace Sukol
             {
                 MessageBox.Show("Daha uzun bir sınıf ismi girin");
             }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog_radyo.ShowDialog(this) == DialogResult.OK)
+            {
+                string path = openFileDialog_radyo.InitialDirectory + openFileDialog_radyo.FileName;
+                Properties.Settings.Default["okul_radyo"] = path;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+        private void hesapMakinesiToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            panel_hesapMakinesi.BringToFront();
+        }
+
+        private void okulRadyosuToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            panel_okulRadyo.BringToFront();
+            if (File.Exists(Properties.Settings.Default["okul_radyo"].ToString())) axWindowsMediaPlayer1.URL = Properties.Settings.Default["okul_radyo"].ToString();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.settings.volume = trackBar1.Value;
+        }
+
+        private void button_oynat_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.play();
+        }
+
+        private void button_duraklat_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.pause();
         }
     }
 }
