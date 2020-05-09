@@ -995,6 +995,207 @@
   <data name="&gt;&gt;label_rollerYazan.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="button_YeniSinif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 328</value>
+  </data>
+  <data name="button_YeniSinif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="button_YeniSinif.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="button_YeniSinif.Text" xml:space="preserve">
+    <value>Sınıf Ekle</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Name" xml:space="preserve">
+    <value>button_YeniSinif</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBox_yeniSinif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 304</value>
+  </data>
+  <data name="textBox_yeniSinif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="textBox_yeniSinif.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Name" xml:space="preserve">
+    <value>textBox_yeniSinif</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label_yeniSinif.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_yeniSinif.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 307</value>
+  </data>
+  <data name="label_yeniSinif.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="label_yeniSinif.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label_yeniSinif.Text" xml:space="preserve">
+    <value>Yeni sınıf:</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Name" xml:space="preserve">
+    <value>label_yeniSinif</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>İsim Soyisim</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="listView_sinifOgretmen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 29</value>
+  </data>
+  <data name="listView_sinifOgretmen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 265</value>
+  </data>
+  <data name="listView_sinifOgretmen.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="listView_sinifOgretmen.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Name" xml:space="preserve">
+    <value>listView_sinifOgretmen</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="isim_soyisim.Text" xml:space="preserve">
+    <value>İsim Soyisim</value>
+  </data>
+  <data name="isim_soyisim.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="numara.Text" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="numara.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="listView_sinifOgrenci.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 29</value>
+  </data>
+  <data name="listView_sinifOgrenci.Size" type="System.Drawing.Size, System.Drawing">
+    <value>271, 265</value>
+  </data>
+  <data name="listView_sinifOgrenci.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="listView_sinifOgrenci.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Name" xml:space="preserve">
+    <value>listView_sinifOgrenci</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 11</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.Text" xml:space="preserve">
+    <value>... sınıfı öğretmen listesi</value>
+  </data>
+  <data name="label_sinifOgretmenListesi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Name" xml:space="preserve">
+    <value>label_sinifOgretmenListesi</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 11</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 13</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.Text" xml:space="preserve">
+    <value>... sınıfı öğrenci listesi</value>
+  </data>
+  <data name="label_sinifOgrenciListesi.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Name" xml:space="preserve">
+    <value>label_sinifOgrenciListesi</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="label_siniflar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1023,13 +1224,13 @@
     <value>panel_gorevli</value>
   </data>
   <data name="&gt;&gt;label_siniflar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>7</value>
   </data>
   <data name="listBox_siniflar.Location" type="System.Drawing.Point, System.Drawing">
     <value>173, 29</value>
   </data>
   <data name="listBox_siniflar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 95</value>
+    <value>120, 264</value>
   </data>
   <data name="listBox_siniflar.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1044,7 +1245,7 @@
     <value>panel_gorevli</value>
   </data>
   <data name="&gt;&gt;listBox_siniflar.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1071,7 +1272,7 @@
     <value>panel_gorevli</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>9</value>
   </data>
   <data name="panel_gorevli.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -3376,6 +3577,24 @@
   </data>
   <data name="&gt;&gt;openFileDialog_profilFoto.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isim_soyisim.Name" xml:space="preserve">
+    <value>isim_soyisim</value>
+  </data>
+  <data name="&gt;&gt;isim_soyisim.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numara.Name" xml:space="preserve">
+    <value>numara</value>
+  </data>
+  <data name="&gt;&gt;numara.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormAna</value>
