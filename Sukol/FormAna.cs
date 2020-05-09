@@ -63,6 +63,9 @@ namespace Sukol
         public FormAna()
         {
             InitializeComponent();
+
+            new Loading(10, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
+
             panel_ana_sayfa.BringToFront();
         }
 
