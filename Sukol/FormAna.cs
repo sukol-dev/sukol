@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data.OleDb;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -196,6 +197,110 @@ namespace Sukol
         private void button3_Click_1(object sender, EventArgs e)
         {
             new KullaniciEkleme.KullaniciEkle(gorevli).ShowDialog();
+        }
+
+        private void listBox_siniflar_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox_siniflar.SelectedIndex == -1) return;
+            listView_sinifOgrenci.Items.Clear();
+            listView_sinifOgretmen.Items.Clear();
+            listView_sinifOgrenci.Visible = true;
+            listView_sinifOgretmen.Visible = true;
+            label_sinifOgrenciListesi.Visible = true;
+            label_sinifOgretmenListesi.Visible = true;
+            label_sinifOgrenciListesi.Text = listBox_siniflar.SelectedItem.ToString() + " sınıfı öğrenci listesi";
+            label_sinifOgretmenListesi.Text = listBox_siniflar.SelectedItem.ToString() + " sınıfı öğretmen listesi";
+
+            veritabani.baslat();
+            veritabani.sorgu("" +
+                "select" +
+
+                " kullanicilar.isim as isim," +
+                " kullanicilar.soyisim as soyisim," +
+
+                " ogrenciler.okul_no as okul_no" +
+
+                " from kullanicilar" +
+                " left join ogrenciler on kullanicilar.id=ogrenciler.kullanici_id" +
+
+                " where ogrenciler.sinif=@sinif"
+            );
+            veritabani.parametreEkle("sinif", listBox_siniflar.SelectedItem.ToString());
+            OleDbDataReader oku = veritabani.oku();
+            while (oku.Read())
+            {
+                string[] bilgiler = {
+                    oku["isim"].ToString()+oku["soyisim"].ToString(),
+                    oku["okul_no"].ToString()
+                };
+                ListViewItem list = new ListViewItem(bilgiler);
+                listView_sinifOgrenci.Items.Add(list);
+            }
+
+
+            veritabani.sorgu("" +
+                "select" +
+
+                " kullanicilar.isim as isim," +
+                " kullanicilar.soyisim as soyisim" +
+
+                " from kullanicilar" +
+                " left join ogretmenler on kullanicilar.id=ogretmenler.kullanici_id" +
+
+                " where ogretmenler.sinif=@sinif"
+            );
+            veritabani.parametreEkle("sinif", listBox_siniflar.SelectedItem.ToString());
+            oku = veritabani.oku();
+            while (oku.Read())
+            {
+                string[] bilgiler = {
+                    oku["isim"].ToString()+oku["soyisim"].ToString()
+                };
+                ListViewItem list = new ListViewItem(bilgiler);
+                listView_sinifOgretmen.Items.Add(list);
+            }
+            veritabani.kapat();
+        }
+
+        private void button_YeniSinif_Click(object sender, EventArgs e)
+        {
+            if (textBox_yeniSinif.Text.Length > 2)
+            {
+                bool devam = true;
+                veritabani.sorgu("" +
+                    "select" +
+                    " isim" +
+                    " from siniflar" +
+                    " where isim=@sinif"
+                );
+                veritabani.parametreEkle("sinif", textBox_yeniSinif.Text);
+                veritabani.baslat();
+                veritabani.calistir();
+                OleDbDataReader oku = veritabani.oku();
+                while (oku.Read())
+                {
+                    devam = false;
+                }
+                veritabani.kapat();
+                if (!devam) { MessageBox.Show("Aynı isimde sınıf mevcut"); return; }
+                veritabani.sorgu("INSERT INTO siniflar(isim) " +
+                   "VALUES(@sinif);");
+                veritabani.parametreEkle("sinif", textBox_yeniSinif.Text);
+                veritabani.baslat();
+                veritabani.calistir();
+                veritabani.kapat();
+                MessageBox.Show("Sınıf eklendi");
+                textBox_yeniSinif.Text = "";
+                listBox_siniflar.Items.Clear();
+                string[] siniflar = gorevli.siniflar();
+                listBox_siniflar.Items.Clear();
+                for (int i = 0; i < siniflar.Length; i++)
+                    listBox_siniflar.Items.Add(siniflar[i]);
+            }
+            else
+            {
+                MessageBox.Show("Daha uzun bir sınıf ismi girin");
+            }
         }
     }
 }
