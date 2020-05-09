@@ -57,6 +57,7 @@ namespace Sukol.KullaniciEkleme
             gorevli.KullaniciEkle(kullanici);
 
             MessageBox.Show("Kullanıcı eklendi");
+            Close();
         }
 
         private bool TextBoxlariKontrolEt()
