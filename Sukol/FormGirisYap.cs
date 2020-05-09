@@ -33,16 +33,16 @@ namespace Sukol
 
                 " ogrenciler.okul_no as ogrenci_okul_no" +
 
-                " from ((kullanicilar" +
+                " from kullanicilar" +
 
-                " left join ogrenciler on kullanicilar.id=ogrenciler.kullanici_id)" +
-                " left join ogretmenler on kullanicilar.id=ogretmenler.kullanici_id)" +
-                " left join gorevliler on kullanicilar.id=gorevliler.kullanici_id" +
+                " left join ogrenciler on kullanicilar.id=ogrenciler.kullanici_id" +
 
                 " where kullanicilar.kullanici_adi=@kullanici_adi and kullanicilar.sifre=@sifre"
             );
-            veritabani.parametreEkle("kullaniciadi", textBox_kullaniciAdi.Text);
+
+            veritabani.parametreEkle("kullanici_adi", textBox_kullaniciAdi.Text);
             veritabani.parametreEkle("sifre", maskedTextBox_sifre.Text);
+
             veritabani.baslat();
             veritabani.calistir();
             OleDbDataReader oku = veritabani.oku();
