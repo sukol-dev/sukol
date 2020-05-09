@@ -19,7 +19,7 @@ namespace Sukol
     class Veritabani
     {
         OleDbConnection baglantim = new OleDbConnection("Provider= Microsoft.JET.OleDb.4.0;Data Source=" + Application.StartupPath + "\\sukol.mdb");
-        private OleDbCommand komut;
+        public OleDbCommand komut;
         public void baslat()
         {
             try
