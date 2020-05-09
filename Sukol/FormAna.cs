@@ -230,7 +230,7 @@ namespace Sukol
             while (oku.Read())
             {
                 string[] bilgiler = {
-                    oku["isim"].ToString()+oku["soyisim"].ToString(),
+                    oku["isim"].ToString()+" "+oku["soyisim"].ToString(),
                     oku["okul_no"].ToString()
                 };
                 ListViewItem list = new ListViewItem(bilgiler);
