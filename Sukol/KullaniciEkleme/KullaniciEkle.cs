@@ -51,7 +51,7 @@ namespace Sukol.KullaniciEkleme
             kullanici.isim = textBox_ad.Text;
             kullanici.soyisim = textBox_soyad.Text;
             kullanici.kullaniciAdi = textBox_kullaniciAdi.Text;
-            kullanici.sifre = textBox_sifre.Text;
+            kullanici.sifre = maskedTextBox_sifre.Text;
 
             gorevli.KullaniciEkle(kullanici);
 
@@ -71,7 +71,7 @@ namespace Sukol.KullaniciEkleme
             if(textBox_ad.Text.Trim().Length < 2 &&
                 textBox_soyad.Text.Trim().Length < 2 &&
                 textBox_kullaniciAdi.Text.Trim().Length < 2 &&
-                textBox_sifre.Text.Trim().Length < 2)
+                maskedTextBox_sifre.Text.Trim().Length < 2)
             {
                 MessageBox.Show("Alanları boş geçme", "Hata");
                 return false;

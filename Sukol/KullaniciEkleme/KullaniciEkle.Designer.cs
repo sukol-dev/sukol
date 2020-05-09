@@ -31,7 +31,6 @@
             this.textBox_kullaniciAdi = new System.Windows.Forms.TextBox();
             this.label_kullaniciAdi = new System.Windows.Forms.Label();
             this.label_sifre = new System.Windows.Forms.Label();
-            this.textBox_sifre = new System.Windows.Forms.TextBox();
             this.checkBox_gorevli = new System.Windows.Forms.CheckBox();
             this.checkBox_ogretmen = new System.Windows.Forms.CheckBox();
             this.checkBox_ogrenci = new System.Windows.Forms.CheckBox();
@@ -43,6 +42,7 @@
             this.button_ekle = new System.Windows.Forms.Button();
             this.panel_rol_giris = new System.Windows.Forms.FlowLayoutPanel();
             this.panel_kullanici_bilgileri = new System.Windows.Forms.Panel();
+            this.maskedTextBox_sifre = new System.Windows.Forms.MaskedTextBox();
             this.group_roller.SuspendLayout();
             this.panel_kullanici_bilgileri.SuspendLayout();
             this.SuspendLayout();
@@ -73,13 +73,6 @@
             this.label_sifre.Size = new System.Drawing.Size(30, 13);
             this.label_sifre.TabIndex = 2;
             this.label_sifre.Text = "Şifre";
-            // 
-            // textBox_sifre
-            // 
-            this.textBox_sifre.Location = new System.Drawing.Point(300, 31);
-            this.textBox_sifre.Name = "textBox_sifre";
-            this.textBox_sifre.Size = new System.Drawing.Size(150, 22);
-            this.textBox_sifre.TabIndex = 3;
             // 
             // checkBox_gorevli
             // 
@@ -188,6 +181,7 @@
             // 
             // panel_kullanici_bilgileri
             // 
+            this.panel_kullanici_bilgileri.Controls.Add(this.maskedTextBox_sifre);
             this.panel_kullanici_bilgileri.Controls.Add(this.label_ad);
             this.panel_kullanici_bilgileri.Controls.Add(this.textBox_kullaniciAdi);
             this.panel_kullanici_bilgileri.Controls.Add(this.button_ekle);
@@ -195,7 +189,6 @@
             this.panel_kullanici_bilgileri.Controls.Add(this.textBox_soyad);
             this.panel_kullanici_bilgileri.Controls.Add(this.label_sifre);
             this.panel_kullanici_bilgileri.Controls.Add(this.label_soyad);
-            this.panel_kullanici_bilgileri.Controls.Add(this.textBox_sifre);
             this.panel_kullanici_bilgileri.Controls.Add(this.group_roller);
             this.panel_kullanici_bilgileri.Controls.Add(this.textBox_ad);
             this.panel_kullanici_bilgileri.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -204,6 +197,14 @@
             this.panel_kullanici_bilgileri.Name = "panel_kullanici_bilgileri";
             this.panel_kullanici_bilgileri.Size = new System.Drawing.Size(456, 200);
             this.panel_kullanici_bilgileri.TabIndex = 14;
+            // 
+            // maskedTextBox_sifre
+            // 
+            this.maskedTextBox_sifre.Location = new System.Drawing.Point(300, 31);
+            this.maskedTextBox_sifre.Name = "maskedTextBox_sifre";
+            this.maskedTextBox_sifre.PasswordChar = '*';
+            this.maskedTextBox_sifre.Size = new System.Drawing.Size(150, 22);
+            this.maskedTextBox_sifre.TabIndex = 7;
             // 
             // KullaniciEkle
             // 
@@ -232,7 +233,6 @@
         private System.Windows.Forms.TextBox textBox_kullaniciAdi;
         private System.Windows.Forms.Label label_kullaniciAdi;
         private System.Windows.Forms.Label label_sifre;
-        private System.Windows.Forms.TextBox textBox_sifre;
         private System.Windows.Forms.CheckBox checkBox_gorevli;
         private System.Windows.Forms.CheckBox checkBox_ogretmen;
         private System.Windows.Forms.CheckBox checkBox_ogrenci;
@@ -244,5 +244,6 @@
         private System.Windows.Forms.Button button_ekle;
         private System.Windows.Forms.FlowLayoutPanel panel_rol_giris;
         private System.Windows.Forms.Panel panel_kullanici_bilgileri;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox_sifre;
     }
 }
