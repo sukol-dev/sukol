@@ -35,23 +35,18 @@ namespace Sukol
             kullanici.isim = isim;
             kullanici.soyisim = soyisim;
 
-            labelIsim.Visible = true;
-            labelIsimYazan.Text = isim;
-            labelIsimYazan.Visible = true;
-            labelSoyIsim.Visible = true;
-            labelSoyIsimYazan.Text = soyisim;
-            labelSoyIsimYazan.Visible = true;
+            label_ad.Visible = true;
+            label_ad.Text = "Ad: " + isim;
+            label_soyad.Visible = true;
+            label_soyad.Text = "Soyad: " + soyisim;
             label_roller.Visible = true;
-            string roller = "";
-            if (ogrenci) roller += "öğrenci,";
-            if (ogretmen) roller += "öğretmen,";
-            if (gorevli) roller += "görevli,";
-            roller = roller.Remove(roller.Length - 1);
-            label_rollerYazan.Text = roller;
-            label_rollerYazan.Visible = true;
+            label_roller.Text = "Roller:\n";
+            if (gorevli) label_roller.Text += "Görevli\n";
+            if (ogrenci) label_roller.Text += "Öğrenci\n";
+            if (ogretmen) label_roller.Text += "Öğretmen\n";
 
-            button_girisyap.Visible = false;
-            button_cikisYap.Visible = true;
+            //button_girisyap.Visible = false;
+            //button_cikisYap.Visible = true;
 
             kullanici.profilfoto = profilfoto;
             if (File.Exists(profilfoto)) pictureBox_profilFoto.Image = Image.FromFile(@profilfoto);
@@ -61,20 +56,18 @@ namespace Sukol
             pictureBox_profilFoto.Visible = true;
 
             kullanici.id = kullanici_id;
+
+            button_girisyap.Click -= girisyap_button_Click;
+            button_girisyap.Click += button_cikisYap_Click;
+            button_girisyap.Text = "Çıkış";
         }
         public FormAna()
         {
             InitializeComponent();
 
-            new Loading(5, new string[] { "Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor" });
+            new Loading(3, new string[] { "Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor" });
 
             panel_ana_sayfa.BringToFront();
-        }
-
-        private void girisyap_button_Click(object sender, EventArgs e)
-        {
-            FormGirisYap girisYap = new FormGirisYap();
-            girisYap.Show();
         }
 
         private void websitemiz_button_Click(object sender, EventArgs e)
@@ -85,6 +78,12 @@ namespace Sukol
         private void button1_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/sukol-dev/sukol");
+        }
+
+        private void girisyap_button_Click(object sender, EventArgs e)
+        {
+            FormGirisYap girisYap = new FormGirisYap();
+            girisYap.Show();
         }
 
         private void button_cikisYap_Click(object sender, EventArgs e)
@@ -101,17 +100,17 @@ namespace Sukol
             görevliToolStripMenuItem.Enabled = false;
 
             button_girisyap.Visible = true;
-            button_cikisYap.Visible = false;
 
-            labelIsim.Visible = false;
-            labelIsimYazan.Visible = false;
-            labelSoyIsim.Visible = false;
-            labelSoyIsimYazan.Visible = false;
+            label_ad.Visible = false;
+            label_soyad.Visible = false;
             label_roller.Visible = false;
-            label_rollerYazan.Visible = false;
 
             button_profilFoto.Visible = false;
             pictureBox_profilFoto.Visible = false;
+
+            button_girisyap.Click -= button_cikisYap_Click;
+            button_girisyap.Click += girisyap_button_Click;
+            button_girisyap.Text = "Giriş yap";
         }
 
         private void hakkimizda_button_Click(object sender, EventArgs e)
@@ -169,7 +168,7 @@ namespace Sukol
                 dizi[i] = rnd.Next(1, 49);
             }
             Array.Sort(dizi);
-            label_sansliSayi.Text = "Şanslı Sayılar:" + dizi[0].ToString() + "," + dizi[1].ToString() + "," + dizi[2].ToString() + "," + dizi[3].ToString() + "," + dizi[4].ToString() + "," + dizi[5].ToString();
+            label_sansliSayilar.Text = "Şanslı Sayılar: " + dizi[0].ToString() + "," + dizi[1].ToString() + "," + dizi[2].ToString() + "," + dizi[3].ToString() + "," + dizi[4].ToString() + "," + dizi[5].ToString();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -431,7 +430,8 @@ namespace Sukol
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            Clipboard.SetText(richTextBox1.Text);
+            if(richTextBox1.Text != "")
+                Clipboard.SetText(richTextBox1.Text);
         }
 
         private void button6_Click(object sender, EventArgs e)

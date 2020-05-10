@@ -342,3 +342,4 @@ healthchecksdb
 *.exe
 *WMPLib.dll
 *Sukol.exe.config
+*vshost.exe.*
