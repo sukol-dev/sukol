@@ -1,1 +1,1 @@
-# C# programlama 2 ödevi
+#C# Programlama Ödevi
