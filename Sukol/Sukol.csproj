@@ -68,6 +68,18 @@
     <Compile Include="AboutWindow.Designer.cs">
       <DependentUpon>AboutWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="DuyuruItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DuyuruItem.Designer.cs">
+      <DependentUpon>DuyuruItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuyuruPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuyuruPaneli.Designer.cs">
+      <DependentUpon>DuyuruPaneli.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     <Compile Include="Veritabani.cs" />
     <EmbeddedResource Include="AboutWindow.resx">
       <DependentUpon>AboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruItem.resx">
+      <DependentUpon>DuyuruItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruPaneli.resx">
+      <DependentUpon>DuyuruPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAna.resx">
       <DependentUpon>FormAna.cs</DependentUpon>

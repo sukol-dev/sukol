@@ -12,7 +12,6 @@ namespace Sukol
 {
     public partial class Loading : Form
     {
-        //int time;
         int index;
         string[] txs;
         int cycle;
@@ -22,10 +21,10 @@ namespace Sukol
         public Loading(int saniye, string[] yazilar)
         {
             InitializeComponent();
+            if (saniye == 0)
+                return;
 
             txs = yazilar;
-            //time = saniye * 10;
-            //textTime = time / yazilar.Length;
             timer1.Interval = 100;
 
             maxCycle = (1000 * saniye) / timer1.Interval;

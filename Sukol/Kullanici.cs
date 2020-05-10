@@ -8,6 +8,7 @@ namespace Sukol
         public string profilfoto;
         public string kullaniciAdi;
         public string sifre;
+        public int id;
 
         public Ogrenci ogrenci;
         public Ogretmen ogretmen;

@@ -29,7 +29,7 @@ namespace Sukol
             ogrenci.erisim = true;
             ogrenci.numara = numara;
         }
-        Kullanici kullanici = new Kullanici();
+        public Kullanici kullanici = new Kullanici();
         public void kullaniciGiris(string isim, string soyisim, string profilfoto, bool ogrenci, bool ogretmen, bool gorevli)
         {
             kullanici.isim = isim;
@@ -43,9 +43,9 @@ namespace Sukol
             labelSoyIsimYazan.Visible = true;
             label_roller.Visible = true;
             string roller = "";
-            if (ogrenci) roller += "öğrenci,";
-            if (ogretmen) roller += "öğretmen,";
-            if (gorevli) roller += "görevli,";
+            if (ogrenci) roller += "öğrenci,"; kullanici.ogrenci = this.ogrenci;
+            if (ogretmen) roller += "öğretmen,"; kullanici.ogretmen = this.ogretmen;
+            if (gorevli) roller += "görevli,"; kullanici.gorevli = this.gorevli;
             roller = roller.Remove(roller.Length - 1);
             label_rollerYazan.Text = roller;
             label_rollerYazan.Visible = true;
@@ -59,12 +59,14 @@ namespace Sukol
 
             button_profilFoto.Visible = true;
             pictureBox_profilFoto.Visible = true;
+
+            kullanici.id = kullanici_id;
         }
         public FormAna()
         {
             InitializeComponent();
 
-            new Loading(10, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
+            new Loading(0, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
 
             panel_ana_sayfa.BringToFront();
         }
@@ -344,6 +346,11 @@ namespace Sukol
         private void button_duraklat_Click(object sender, EventArgs e)
         {
             axWindowsMediaPlayer1.Ctlcontrols.pause();
+        }
+
+        private void button_duyuruEkle_Click(object sender, EventArgs e)
+        {
+            new DuyuruPaneli(kullanici);
         }
     }
 }
