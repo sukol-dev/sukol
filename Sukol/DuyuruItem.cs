@@ -28,5 +28,10 @@ namespace Sukol
             label_tarih.Text = tarih;
             tb_metin.Text = metin;
         }
+
+        public DuyuruItem()
+        {
+            InitializeComponent();
+        }
     }
 }

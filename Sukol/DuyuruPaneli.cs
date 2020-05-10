@@ -13,7 +13,8 @@ namespace Sukol
 {
     public partial class DuyuruPaneli : Form
     {
-        Kullanici k;
+        public Kullanici k;
+        string sinif = "";
         Veritabani db = new Veritabani();
         public DuyuruPaneli(Kullanici k)
         {
@@ -21,19 +22,8 @@ namespace Sukol
 
             this.k = k;
 
-            /*db = new Veritabani();
-            db.sorgu("SELECT metin FROM duyurular WHERE sinif_ad=BİL-PROG");
-            db.baslat();
-            OleDbDataReader reader = db.oku();
-            if (reader.HasRows)
-                MessageBox.Show("Var bir şeyler!");
-
-            while(reader.Read())
-            {
-                MessageBox.Show(reader[0].ToString());
-            }
-
-            db.kapat();*/
+            if (k.gorevli == null)
+                sinif = null;
 
             ShowDialog();
         }
@@ -58,7 +48,7 @@ namespace Sukol
 
         void LoadDuyurular()
         {
-            if(k.gorevli == null)
+            if(sinif == null)
             {
                 db.sorgu("SELECT (SELECT isim + \" \" + soyisim FROM kullanicilar WHERE kullanici_id=@kullanici_id) AS yazar_ad,"+
                     " metin, tarih FROM duyurular" +
@@ -80,8 +70,6 @@ namespace Sukol
                 flowLayout_duyurular.Controls.Add(new DuyuruItem(reader[0].ToString(), reader[1].ToString(), reader[2].ToString()));
             }
 
-            //comboBox_siniflar.Text = reader["sinif_ad"].ToString();
-
             db.kapat();
         }
 
@@ -99,6 +87,13 @@ namespace Sukol
 
         private void comboBox_siniflar_SelectedIndexChanged(object sender, EventArgs e)
         {
+            flowLayout_duyurular.Controls.Clear();
+            LoadDuyurular();
+        }
+
+        private void button_duyuruEkle_Click(object sender, EventArgs e)
+        {
+            new DuyuruEkle(k, comboBox_siniflar.Text);
             flowLayout_duyurular.Controls.Clear();
             LoadDuyurular();
         }

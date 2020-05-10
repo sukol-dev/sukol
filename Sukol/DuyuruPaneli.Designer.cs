@@ -42,7 +42,7 @@
             // 
             this.tableLayout_main.AutoSize = true;
             this.tableLayout_main.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayout_main.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
+            this.tableLayout_main.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
             this.tableLayout_main.ColumnCount = 1;
             this.tableLayout_main.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayout_main.Controls.Add(this.tableLayoutPanel2, 0, 0);
@@ -53,7 +53,7 @@
             this.tableLayout_main.RowCount = 2;
             this.tableLayout_main.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayout_main.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayout_main.Size = new System.Drawing.Size(594, 428);
+            this.tableLayout_main.Size = new System.Drawing.Size(494, 578);
             this.tableLayout_main.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -68,12 +68,12 @@
             this.tableLayoutPanel2.Controls.Add(this.label_sinif, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.button_duyuruEkle, 2, 0);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(2, 2);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(588, 40);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(490, 40);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // comboBox_siniflar
@@ -103,7 +103,7 @@
             this.button_duyuruEkle.AutoSize = true;
             this.button_duyuruEkle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button_duyuruEkle.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button_duyuruEkle.Location = new System.Drawing.Point(484, 5);
+            this.button_duyuruEkle.Location = new System.Drawing.Point(386, 5);
             this.button_duyuruEkle.Margin = new System.Windows.Forms.Padding(5);
             this.button_duyuruEkle.Name = "button_duyuruEkle";
             this.button_duyuruEkle.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
@@ -111,19 +111,19 @@
             this.button_duyuruEkle.TabIndex = 0;
             this.button_duyuruEkle.Text = "Duyuru Ekle";
             this.button_duyuruEkle.UseVisualStyleBackColor = true;
+            this.button_duyuruEkle.Click += new System.EventHandler(this.button_duyuruEkle_Click);
             // 
             // flowLayout_duyurular
             // 
             this.flowLayout_duyurular.AutoScroll = true;
-            this.flowLayout_duyurular.AutoSize = true;
             this.flowLayout_duyurular.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.flowLayout_duyurular.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayout_duyurular.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayout_duyurular.Location = new System.Drawing.Point(13, 56);
+            this.flowLayout_duyurular.Location = new System.Drawing.Point(12, 54);
             this.flowLayout_duyurular.Margin = new System.Windows.Forms.Padding(10);
             this.flowLayout_duyurular.Name = "flowLayout_duyurular";
             this.flowLayout_duyurular.Padding = new System.Windows.Forms.Padding(10);
-            this.flowLayout_duyurular.Size = new System.Drawing.Size(568, 359);
+            this.flowLayout_duyurular.Size = new System.Drawing.Size(470, 512);
             this.flowLayout_duyurular.TabIndex = 1;
             this.flowLayout_duyurular.WrapContents = false;
             // 
@@ -133,11 +133,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(594, 428);
+            this.ClientSize = new System.Drawing.Size(494, 578);
             this.Controls.Add(this.tableLayout_main);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximumSize = new System.Drawing.Size(600, 600);
+            this.MinimumSize = new System.Drawing.Size(500, 400);
             this.Name = "DuyuruPaneli";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.Text = "Duyuru";

@@ -156,13 +156,13 @@
     <value>Öğretmen</value>
   </data>
   <data name="hesapMakinesiToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="hesapMakinesiToolStripMenuItem1.Text" xml:space="preserve">
     <value>Hesap Makinesi</value>
   </data>
   <data name="okulRadyosuToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>147, 22</value>
   </data>
   <data name="okulRadyosuToolStripMenuItem1.Text" xml:space="preserve">
     <value>Okul Radyosu</value>
@@ -204,7 +204,7 @@
   <data name="sukol_icon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATgAAAGDCAYAAAC/cgzcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAASK9JREFUeF7tnQd4FMf5xg1INAPudpw4f9sQN+K4EXCNbdwbdtxb3OIW927HcTeu
+        wAAADsABataJCQAASK9JREFUeF7tnQd4FMf5xg1INAPudpw4f9sQN+K4EXCNbdwbdtxb3OIW927HcTeu
         cYvpmI4Nppree+9SJKGCkECoUIWsdm1vd/b/zupEhLjb3Tvd6drL8+wjQHu7M7+dfe+b+cocdhj/kAAJ
         kAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJ
         kAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJ
@@ -1073,7 +1073,7 @@
     <value>9</value>
   </data>
   <data name="button_duyuruEkle.Text" xml:space="preserve">
-    <value>Duyuru Ekle</value>
+    <value>Duyurular</value>
   </data>
   <data name="&gt;&gt;button_duyuruEkle.Name" xml:space="preserve">
     <value>button_duyuruEkle</value>
