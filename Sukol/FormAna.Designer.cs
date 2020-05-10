@@ -101,21 +101,25 @@
             this.label_ad = new System.Windows.Forms.Label();
             this.panel_ogretmen = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.panel_not_tutucu = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
-            this.radioButton6 = new System.Windows.Forms.RadioButton();
-            this.radioButton_sol = new System.Windows.Forms.RadioButton();
-            this.checkBox_italik = new System.Windows.Forms.CheckBox();
-            this.checkBox_altiCizgili = new System.Windows.Forms.CheckBox();
-            this.checkBox_kalin = new System.Windows.Forms.CheckBox();
+            this.table_notTutucuPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.table_notTutucu = new System.Windows.Forms.TableLayoutPanel();
+            this.table_notTutucu_bot = new System.Windows.Forms.TableLayoutPanel();
+            this.button_notTutucu_kopyala = new System.Windows.Forms.Button();
+            this.button6button_notTutucu_temizle = new System.Windows.Forms.Button();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.button_kirmizi = new System.Windows.Forms.Button();
             this.button_mavi = new System.Windows.Forms.Button();
             this.button_siyah = new System.Windows.Forms.Button();
-            this.button_kirmizi = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.table_notTutucu_top = new System.Windows.Forms.TableLayoutPanel();
+            this.checkBox_kalin = new System.Windows.Forms.CheckBox();
+            this.radioButton_sol = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.checkBox_italik = new System.Windows.Forms.CheckBox();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.checkBox_altiCizgili = new System.Windows.Forms.CheckBox();
+            this.label_notBuyut = new System.Windows.Forms.Label();
+            this.label_notKucult = new System.Windows.Forms.Label();
+            this.richtb_not = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -133,7 +137,11 @@
             this.tableLayout_foto.SuspendLayout();
             this.tableLayout_kullaniciBilgileri.SuspendLayout();
             this.panel_ogretmen.SuspendLayout();
-            this.panel_not_tutucu.SuspendLayout();
+            this.table_notTutucuPanel.SuspendLayout();
+            this.table_notTutucu.SuspendLayout();
+            this.table_notTutucu_bot.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.table_notTutucu_top.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -612,81 +620,58 @@
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
             // 
-            // panel_not_tutucu
+            // table_notTutucuPanel
             // 
-            this.panel_not_tutucu.Controls.Add(this.button_kirmizi);
-            this.panel_not_tutucu.Controls.Add(this.label7);
-            this.panel_not_tutucu.Controls.Add(this.richTextBox1);
-            this.panel_not_tutucu.Controls.Add(this.checkBox_altiCizgili);
-            this.panel_not_tutucu.Controls.Add(this.label6);
-            this.panel_not_tutucu.Controls.Add(this.checkBox_kalin);
-            this.panel_not_tutucu.Controls.Add(this.button2);
-            this.panel_not_tutucu.Controls.Add(this.checkBox_italik);
-            this.panel_not_tutucu.Controls.Add(this.radioButton7);
-            this.panel_not_tutucu.Controls.Add(this.button_mavi);
-            this.panel_not_tutucu.Controls.Add(this.button6);
-            this.panel_not_tutucu.Controls.Add(this.radioButton_sol);
-            this.panel_not_tutucu.Controls.Add(this.radioButton6);
-            this.panel_not_tutucu.Controls.Add(this.button_siyah);
-            resources.ApplyResources(this.panel_not_tutucu, "panel_not_tutucu");
-            this.panel_not_tutucu.Name = "panel_not_tutucu";
+            resources.ApplyResources(this.table_notTutucuPanel, "table_notTutucuPanel");
+            this.table_notTutucuPanel.Controls.Add(this.table_notTutucu, 1, 0);
+            this.table_notTutucuPanel.Name = "table_notTutucuPanel";
             // 
-            // label7
+            // table_notTutucu
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+            resources.ApplyResources(this.table_notTutucu, "table_notTutucu");
+            this.table_notTutucu.Controls.Add(this.table_notTutucu_bot, 0, 2);
+            this.table_notTutucu.Controls.Add(this.table_notTutucu_top, 0, 0);
+            this.table_notTutucu.Controls.Add(this.richtb_not, 0, 1);
+            this.table_notTutucu.Name = "table_notTutucu";
+            this.table_notTutucu.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
-            // label6
+            // table_notTutucu_bot
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            resources.ApplyResources(this.table_notTutucu_bot, "table_notTutucu_bot");
+            this.table_notTutucu_bot.Controls.Add(this.button_notTutucu_kopyala, 0, 0);
+            this.table_notTutucu_bot.Controls.Add(this.button6button_notTutucu_temizle, 4, 0);
+            this.table_notTutucu_bot.Controls.Add(this.tableLayoutPanel5, 2, 0);
+            this.table_notTutucu_bot.Name = "table_notTutucu_bot";
             // 
-            // radioButton7
+            // button_notTutucu_kopyala
             // 
-            resources.ApplyResources(this.radioButton7, "radioButton7");
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.TabStop = true;
-            this.radioButton7.UseVisualStyleBackColor = true;
-            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            resources.ApplyResources(this.button_notTutucu_kopyala, "button_notTutucu_kopyala");
+            this.button_notTutucu_kopyala.Name = "button_notTutucu_kopyala";
+            this.button_notTutucu_kopyala.UseVisualStyleBackColor = true;
+            this.button_notTutucu_kopyala.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // radioButton6
+            // button6button_notTutucu_temizle
             // 
-            resources.ApplyResources(this.radioButton6, "radioButton6");
-            this.radioButton6.Name = "radioButton6";
-            this.radioButton6.TabStop = true;
-            this.radioButton6.UseVisualStyleBackColor = true;
-            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            resources.ApplyResources(this.button6button_notTutucu_temizle, "button6button_notTutucu_temizle");
+            this.button6button_notTutucu_temizle.Name = "button6button_notTutucu_temizle";
+            this.button6button_notTutucu_temizle.UseVisualStyleBackColor = true;
+            this.button6button_notTutucu_temizle.Click += new System.EventHandler(this.button6_Click);
             // 
-            // radioButton_sol
+            // tableLayoutPanel5
             // 
-            resources.ApplyResources(this.radioButton_sol, "radioButton_sol");
-            this.radioButton_sol.Name = "radioButton_sol";
-            this.radioButton_sol.TabStop = true;
-            this.radioButton_sol.UseVisualStyleBackColor = true;
-            this.radioButton_sol.CheckedChanged += new System.EventHandler(this.radioButton_sol_CheckedChanged);
+            resources.ApplyResources(this.tableLayoutPanel5, "tableLayoutPanel5");
+            this.tableLayoutPanel5.Controls.Add(this.button_kirmizi, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.button_mavi, 2, 0);
+            this.tableLayoutPanel5.Controls.Add(this.button_siyah, 1, 0);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             // 
-            // checkBox_italik
+            // button_kirmizi
             // 
-            resources.ApplyResources(this.checkBox_italik, "checkBox_italik");
-            this.checkBox_italik.Name = "checkBox_italik";
-            this.checkBox_italik.UseVisualStyleBackColor = true;
-            this.checkBox_italik.CheckedChanged += new System.EventHandler(this.checkBox_italik_CheckedChanged);
-            // 
-            // checkBox_altiCizgili
-            // 
-            resources.ApplyResources(this.checkBox_altiCizgili, "checkBox_altiCizgili");
-            this.checkBox_altiCizgili.Name = "checkBox_altiCizgili";
-            this.checkBox_altiCizgili.UseVisualStyleBackColor = true;
-            this.checkBox_altiCizgili.CheckedChanged += new System.EventHandler(this.checkBox_altiCizgili_CheckedChanged);
-            // 
-            // checkBox_kalin
-            // 
-            resources.ApplyResources(this.checkBox_kalin, "checkBox_kalin");
-            this.checkBox_kalin.Name = "checkBox_kalin";
-            this.checkBox_kalin.UseVisualStyleBackColor = true;
-            this.checkBox_kalin.CheckedChanged += new System.EventHandler(this.checkBox_kalin_CheckedChanged);
+            this.button_kirmizi.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.button_kirmizi, "button_kirmizi");
+            this.button_kirmizi.Name = "button_kirmizi";
+            this.button_kirmizi.UseVisualStyleBackColor = false;
+            this.button_kirmizi.Click += new System.EventHandler(this.button_kirmizi_Click);
             // 
             // button_mavi
             // 
@@ -704,46 +689,95 @@
             this.button_siyah.UseVisualStyleBackColor = false;
             this.button_siyah.Click += new System.EventHandler(this.button_siyah_Click);
             // 
-            // button_kirmizi
+            // table_notTutucu_top
             // 
-            this.button_kirmizi.BackColor = System.Drawing.Color.Red;
-            resources.ApplyResources(this.button_kirmizi, "button_kirmizi");
-            this.button_kirmizi.Name = "button_kirmizi";
-            this.button_kirmizi.UseVisualStyleBackColor = false;
-            this.button_kirmizi.Click += new System.EventHandler(this.button_kirmizi_Click);
+            resources.ApplyResources(this.table_notTutucu_top, "table_notTutucu_top");
+            this.table_notTutucu_top.Controls.Add(this.checkBox_kalin, 1, 0);
+            this.table_notTutucu_top.Controls.Add(this.radioButton_sol, 7, 0);
+            this.table_notTutucu_top.Controls.Add(this.radioButton6, 6, 0);
+            this.table_notTutucu_top.Controls.Add(this.checkBox_italik, 0, 0);
+            this.table_notTutucu_top.Controls.Add(this.radioButton7, 5, 0);
+            this.table_notTutucu_top.Controls.Add(this.checkBox_altiCizgili, 2, 0);
+            this.table_notTutucu_top.Controls.Add(this.label_notBuyut, 3, 0);
+            this.table_notTutucu_top.Controls.Add(this.label_notKucult, 4, 0);
+            this.table_notTutucu_top.Cursor = System.Windows.Forms.Cursors.Default;
+            this.table_notTutucu_top.Name = "table_notTutucu_top";
             // 
-            // button6
+            // checkBox_kalin
             // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            resources.ApplyResources(this.checkBox_kalin, "checkBox_kalin");
+            this.checkBox_kalin.Name = "checkBox_kalin";
+            this.checkBox_kalin.UseVisualStyleBackColor = true;
+            this.checkBox_kalin.CheckedChanged += new System.EventHandler(this.checkBox_kalin_CheckedChanged);
             // 
-            // button2
+            // radioButton_sol
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            resources.ApplyResources(this.radioButton_sol, "radioButton_sol");
+            this.radioButton_sol.Name = "radioButton_sol";
+            this.radioButton_sol.TabStop = true;
+            this.radioButton_sol.UseVisualStyleBackColor = true;
+            this.radioButton_sol.CheckedChanged += new System.EventHandler(this.radioButton_sol_CheckedChanged);
             // 
-            // richTextBox1
+            // radioButton6
             // 
-            resources.ApplyResources(this.richTextBox1, "richTextBox1");
-            this.richTextBox1.Name = "richTextBox1";
+            resources.ApplyResources(this.radioButton6, "radioButton6");
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.TabStop = true;
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // checkBox_italik
+            // 
+            resources.ApplyResources(this.checkBox_italik, "checkBox_italik");
+            this.checkBox_italik.Name = "checkBox_italik";
+            this.checkBox_italik.UseVisualStyleBackColor = true;
+            this.checkBox_italik.CheckedChanged += new System.EventHandler(this.checkBox_italik_CheckedChanged);
+            // 
+            // radioButton7
+            // 
+            resources.ApplyResources(this.radioButton7, "radioButton7");
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.TabStop = true;
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            // 
+            // checkBox_altiCizgili
+            // 
+            resources.ApplyResources(this.checkBox_altiCizgili, "checkBox_altiCizgili");
+            this.checkBox_altiCizgili.Name = "checkBox_altiCizgili";
+            this.checkBox_altiCizgili.UseVisualStyleBackColor = true;
+            this.checkBox_altiCizgili.CheckedChanged += new System.EventHandler(this.checkBox_altiCizgili_CheckedChanged);
+            // 
+            // label_notBuyut
+            // 
+            resources.ApplyResources(this.label_notBuyut, "label_notBuyut");
+            this.label_notBuyut.Name = "label_notBuyut";
+            this.label_notBuyut.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label_notKucult
+            // 
+            resources.ApplyResources(this.label_notKucult, "label_notKucult");
+            this.label_notKucult.Name = "label_notKucult";
+            this.label_notKucult.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // richtb_not
+            // 
+            resources.ApplyResources(this.richtb_not, "richtb_not");
+            this.richtb_not.Name = "richtb_not";
             // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panel_not_tutucu);
-            this.Controls.Add(this.panel_ogretmen);
             this.Controls.Add(this.panel_ana_sayfa);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel_ogretmen);
             this.Controls.Add(this.panel_ogrenci);
             this.Controls.Add(this.panel_hesapMakinesi);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_okulRadyo);
+            this.Controls.Add(this.table_notTutucuPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -774,8 +808,12 @@
             this.tableLayout_kullaniciBilgileri.PerformLayout();
             this.panel_ogretmen.ResumeLayout(false);
             this.panel_ogretmen.PerformLayout();
-            this.panel_not_tutucu.ResumeLayout(false);
-            this.panel_not_tutucu.PerformLayout();
+            this.table_notTutucuPanel.ResumeLayout(false);
+            this.table_notTutucu.ResumeLayout(false);
+            this.table_notTutucu_bot.ResumeLayout(false);
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.table_notTutucu_top.ResumeLayout(false);
+            this.table_notTutucu_top.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -855,21 +893,25 @@
         private System.Windows.Forms.Panel panel_ogretmen;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ToolStripMenuItem notTutucuToolStripMenuItem;
-        private System.Windows.Forms.Panel panel_not_tutucu;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.RadioButton radioButton7;
-        private System.Windows.Forms.RadioButton radioButton6;
-        private System.Windows.Forms.RadioButton radioButton_sol;
-        private System.Windows.Forms.CheckBox checkBox_italik;
-        private System.Windows.Forms.CheckBox checkBox_altiCizgili;
+        private System.Windows.Forms.TableLayoutPanel table_notTutucuPanel;
         private System.Windows.Forms.CheckBox checkBox_kalin;
         private System.Windows.Forms.Button button_mavi;
-        private System.Windows.Forms.Button button_siyah;
+        private System.Windows.Forms.CheckBox checkBox_italik;
         private System.Windows.Forms.Button button_kirmizi;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.Button button_siyah;
+        private System.Windows.Forms.Label label_notBuyut;
+        private System.Windows.Forms.Label label_notKucult;
+        private System.Windows.Forms.RichTextBox richtb_not;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.Button button6button_notTutucu_temizle;
+        private System.Windows.Forms.CheckBox checkBox_altiCizgili;
+        private System.Windows.Forms.Button button_notTutucu_kopyala;
+        private System.Windows.Forms.RadioButton radioButton_sol;
+        private System.Windows.Forms.TableLayoutPanel table_notTutucu;
+        private System.Windows.Forms.TableLayoutPanel table_notTutucu_top;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+        private System.Windows.Forms.TableLayoutPanel table_notTutucu_bot;
     }
 }
 
