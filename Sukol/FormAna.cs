@@ -66,7 +66,7 @@ namespace Sukol
         {
             InitializeComponent();
 
-            new Loading(0, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
+            new Loading(5, new string[] { "Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor" });
 
             panel_ana_sayfa.BringToFront();
         }
@@ -366,6 +366,82 @@ namespace Sukol
         private void button_ogretmen_duyurular_Click(object sender, EventArgs e)
         {
             new DuyuruPaneli(kullanici, false);
+        }
+
+        private void notTutucuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel_not_tutucu.BringToFront();
+        }
+
+        private void checkBox_kalin_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_kalin.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Bold);
+            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+        }
+
+        private void checkBox_altiCizgili_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_altiCizgili.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Underline);
+            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+        }
+
+        private void checkBox_italik_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_italik.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Italic);
+            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+        }
+
+        private void radioButton_sol_CheckedChanged(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Left;
+        }
+
+        private void radioButton6_CheckedChanged(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+        }
+
+        private void radioButton7_CheckedChanged(object sender, EventArgs e)
+        {
+            richTextBox1.SelectAll();
+            richTextBox1.SelectionAlignment = HorizontalAlignment.Right;
+        }
+
+        private void button_kirmizi_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ForeColor = Color.Red;
+        }
+
+        private void button_siyah_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ForeColor = Color.Black;
+        }
+
+        private void button_mavi_Click(object sender, EventArgs e)
+        {
+            richTextBox1.ForeColor = Color.Blue;
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size + 1, richTextBox1.Font.Style);
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Clipboard.SetText(richTextBox1.Text);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Clear();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size - 1, richTextBox1.Font.Style);
         }
     }
 }
