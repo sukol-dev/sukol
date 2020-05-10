@@ -14,16 +14,35 @@ namespace Sukol
     public partial class DuyuruPaneli : Form
     {
         public Kullanici k;
-        string sinif = "";
+        string sinif;
         Veritabani db = new Veritabani();
-        public DuyuruPaneli(Kullanici k)
+        public DuyuruPaneli(Kullanici k, bool gorevli)
         {
             InitializeComponent();
 
             this.k = k;
+            if (!gorevli)
+            {
+                db.sorgu("SELECT sinif FROM ogrenciler WHERE kullanici_id=@kid");
+                db.parametreEkle("kid", k.id);
+                db.baslat();
+                OleDbDataReader reader = db.oku();
 
-            if (k.gorevli == null)
-                sinif = null;
+                if (!reader.HasRows)
+                {
+                    db.sorgu("SELECT sinif FROM ogretmenler WHERE kullanici_id=@kid");
+                    db.parametreEkle("kid", k.id);
+                    reader = db.oku();
+                }
+
+                while (reader.Read())
+                {
+                    sinif = reader["sinif"].ToString();
+                    comboBox_siniflar.Text = sinif;
+                    LoadDuyurular(true);
+                }
+                db.kapat();
+            }
 
             ShowDialog();
         }
@@ -36,7 +55,7 @@ namespace Sukol
             OleDbDataReader reader = db.oku();
 
             if (!reader.HasRows)
-                MessageBox.Show("NULL2!");
+                MessageBox.Show("Sınıf yok");
 
             while (reader.Read())
             {
@@ -46,23 +65,23 @@ namespace Sukol
             db.kapat();
         }
 
-        void LoadDuyurular()
+        void LoadDuyurular(bool a)
         {
-            if(sinif == null)
+            db.sorgu("SELECT kullanici_id, metin, tarih FROM duyurular WHERE sinif_ad=@sinif_adi");
+
+            if (sinif == null)
             {
-                db.sorgu("SELECT (SELECT isim + \" \" + soyisim FROM kullanicilar WHERE kullanici_id=@kullanici_id) AS yazar_ad,"+
-                    " metin, tarih FROM duyurular" +
-                    " WHERE sinif_ad IN (SELECT sinif FROM ogrenciler WHERE kullanici_id=@kullanici_id)" +
-                    " OR sinif_ad IN (SELECT sinif FROM ogretmenler WHERE kullanici_id=@kullanici_id)");
-                db.parametreEkle("kullanici_id", k.id);
+                db.parametreEkle("sinif_adi", comboBox_siniflar.Text);
             }
             else
             {
-                db.sorgu("SELECT kullanici_id, metin, tarih FROM duyurular WHERE sinif_ad=@sinif_adi");
-                db.parametreEkle("sinif_adi", comboBox_siniflar.Text);
+                db.parametreEkle("sinif_adi", sinif);
+                comboBox_siniflar.Enabled = false;
+                button_duyuruEkle.Enabled = false;
             }
 
-            db.baslat();
+            if (!a) db.baslat();
+
             OleDbDataReader reader = db.oku();
 
             while (reader.Read())
@@ -70,16 +89,12 @@ namespace Sukol
                 flowLayout_duyurular.Controls.Add(new DuyuruItem(reader[0].ToString(), reader[1].ToString(), reader[2].ToString()));
             }
 
-            db.kapat();
+            if (!a) db.kapat();
         }
 
         private void DuyuruPaneli_Load(object sender, EventArgs e)
         {
-            if(k.gorevli == null)
-            {
-
-            }
-            else
+            if (k.gorevli == null)
             {
                 LoadComboBox();
             }
@@ -88,14 +103,14 @@ namespace Sukol
         private void comboBox_siniflar_SelectedIndexChanged(object sender, EventArgs e)
         {
             flowLayout_duyurular.Controls.Clear();
-            LoadDuyurular();
+            LoadDuyurular(false);
         }
 
         private void button_duyuruEkle_Click(object sender, EventArgs e)
         {
             new DuyuruEkle(k, comboBox_siniflar.Text);
             flowLayout_duyurular.Controls.Clear();
-            LoadDuyurular();
+            LoadDuyurular(false);
         }
     }
 }

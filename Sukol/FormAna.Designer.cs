@@ -49,6 +49,7 @@
             this.labelIsimYazan = new System.Windows.Forms.Label();
             this.labelSoyIsimYazan = new System.Windows.Forms.Label();
             this.panel_ogrenci = new System.Windows.Forms.Panel();
+            this.button_ogrenci_duyuru = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox_profilFoto = new System.Windows.Forms.PictureBox();
             this.openFileDialog_profilFoto = new System.Windows.Forms.OpenFileDialog();
@@ -93,7 +94,9 @@
             this.button_oynat = new System.Windows.Forms.Button();
             this.button_duraklat = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.button_ogrenci_duyuru = new System.Windows.Forms.Button();
+            this.panel_ogretmen = new System.Windows.Forms.Panel();
+            this.button_ogretmen_duyurular = new System.Windows.Forms.Button();
+            this.button_ogretmen_panel = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -104,6 +107,7 @@
             this.panel_okulRadyo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            this.panel_ogretmen.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -139,6 +143,7 @@
             // 
             resources.ApplyResources(this.öğretmenToolStripMenuItem, "öğretmenToolStripMenuItem");
             this.öğretmenToolStripMenuItem.Name = "öğretmenToolStripMenuItem";
+            this.öğretmenToolStripMenuItem.Click += new System.EventHandler(this.öğretmenToolStripMenuItem_Click);
             // 
             // diğerToolStripMenuItem
             // 
@@ -237,6 +242,13 @@
             this.panel_ogrenci.Controls.Add(this.button2);
             resources.ApplyResources(this.panel_ogrenci, "panel_ogrenci");
             this.panel_ogrenci.Name = "panel_ogrenci";
+            // 
+            // button_ogrenci_duyuru
+            // 
+            resources.ApplyResources(this.button_ogrenci_duyuru, "button_ogrenci_duyuru");
+            this.button_ogrenci_duyuru.Name = "button_ogrenci_duyuru";
+            this.button_ogrenci_duyuru.UseVisualStyleBackColor = true;
+            this.button_ogrenci_duyuru.Click += new System.EventHandler(this.button_ogrenci_duyuru_Click);
             // 
             // button2
             // 
@@ -524,12 +536,25 @@
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             // 
-            // button_ogrenci_duyuru
+            // panel_ogretmen
             // 
-            resources.ApplyResources(this.button_ogrenci_duyuru, "button_ogrenci_duyuru");
-            this.button_ogrenci_duyuru.Name = "button_ogrenci_duyuru";
-            this.button_ogrenci_duyuru.UseVisualStyleBackColor = true;
-            this.button_ogrenci_duyuru.Click += new System.EventHandler(this.button_ogrenci_duyuru_Click);
+            this.panel_ogretmen.Controls.Add(this.button_ogretmen_duyurular);
+            this.panel_ogretmen.Controls.Add(this.button_ogretmen_panel);
+            resources.ApplyResources(this.panel_ogretmen, "panel_ogretmen");
+            this.panel_ogretmen.Name = "panel_ogretmen";
+            // 
+            // button_ogretmen_duyurular
+            // 
+            resources.ApplyResources(this.button_ogretmen_duyurular, "button_ogretmen_duyurular");
+            this.button_ogretmen_duyurular.Name = "button_ogretmen_duyurular";
+            this.button_ogretmen_duyurular.UseVisualStyleBackColor = true;
+            this.button_ogretmen_duyurular.Click += new System.EventHandler(this.button_ogretmen_duyurular_Click);
+            // 
+            // button_ogretmen_panel
+            // 
+            resources.ApplyResources(this.button_ogretmen_panel, "button_ogretmen_panel");
+            this.button_ogretmen_panel.Name = "button_ogretmen_panel";
+            this.button_ogretmen_panel.UseVisualStyleBackColor = true;
             // 
             // FormAna
             // 
@@ -551,6 +576,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_okulRadyo);
+            this.Controls.Add(this.panel_ogretmen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -571,6 +597,7 @@
             this.panel_okulRadyo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            this.panel_ogretmen.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -643,6 +670,9 @@
         private System.Windows.Forms.Button button_oynat;
         private System.Windows.Forms.Button button_duraklat;
         private System.Windows.Forms.Button button_ogrenci_duyuru;
+        private System.Windows.Forms.Panel panel_ogretmen;
+        private System.Windows.Forms.Button button_ogretmen_duyurular;
+        private System.Windows.Forms.Button button_ogretmen_panel;
     }
 }
 
