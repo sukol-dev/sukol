@@ -41,21 +41,14 @@
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
             this.panel_ana_sayfa = new System.Windows.Forms.Panel();
-            this.button_cikisYap = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_gitHub = new System.Windows.Forms.Button();
             this.button_girisyap = new System.Windows.Forms.Button();
-            this.labelIsim = new System.Windows.Forms.Label();
-            this.labelSoyIsim = new System.Windows.Forms.Label();
-            this.labelIsimYazan = new System.Windows.Forms.Label();
-            this.labelSoyIsimYazan = new System.Windows.Forms.Label();
             this.panel_ogrenci = new System.Windows.Forms.Panel();
             this.button_ogrenci_duyuru = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox_profilFoto = new System.Windows.Forms.PictureBox();
             this.openFileDialog_profilFoto = new System.Windows.Forms.OpenFileDialog();
             this.button_profilFoto = new System.Windows.Forms.Button();
-            this.label_roller = new System.Windows.Forms.Label();
-            this.label_rollerYazan = new System.Windows.Forms.Label();
             this.panel_gorevli = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button_duyuruEkle = new System.Windows.Forms.Button();
@@ -76,7 +69,6 @@
             this.label_siniflar = new System.Windows.Forms.Label();
             this.listBox_siniflar = new System.Windows.Forms.ListBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.label_sansliSayi = new System.Windows.Forms.Label();
             this.panel_hesapMakinesi = new System.Windows.Forms.Panel();
             this.label_hesapmakSonuc = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -97,6 +89,16 @@
             this.panel_ogretmen = new System.Windows.Forms.Panel();
             this.button_ogretmen_duyurular = new System.Windows.Forms.Button();
             this.button_ogretmen_panel = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.tableLayout_topPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayout_foto = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayout_kullaniciBilgileri = new System.Windows.Forms.TableLayoutPanel();
+            this.label_ad = new System.Windows.Forms.Label();
+            this.label_soyad = new System.Windows.Forms.Label();
+            this.label_roller = new System.Windows.Forms.Label();
+            this.label_sansliSayilar = new System.Windows.Forms.Label();
+            this.tableLayout_menu = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -108,6 +110,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.panel_ogretmen.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.tableLayout_topPanel.SuspendLayout();
+            this.tableLayout_foto.SuspendLayout();
+            this.tableLayout_kullaniciBilgileri.SuspendLayout();
+            this.tableLayout_menu.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -167,6 +175,7 @@
             // 
             // sukol_icon
             // 
+            this.sukol_icon.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this.sukol_icon, "sukol_icon");
             this.sukol_icon.Name = "sukol_icon";
             this.sukol_icon.TabStop = false;
@@ -187,27 +196,16 @@
             // 
             // panel_ana_sayfa
             // 
-            this.panel_ana_sayfa.Controls.Add(this.button_cikisYap);
-            this.panel_ana_sayfa.Controls.Add(this.button1);
-            this.panel_ana_sayfa.Controls.Add(this.button_girisyap);
-            this.panel_ana_sayfa.Controls.Add(this.websitemiz_button);
-            this.panel_ana_sayfa.Controls.Add(this.hakkimizda_button);
+            this.panel_ana_sayfa.Controls.Add(this.tableLayoutPanel2);
             resources.ApplyResources(this.panel_ana_sayfa, "panel_ana_sayfa");
             this.panel_ana_sayfa.Name = "panel_ana_sayfa";
             // 
-            // button_cikisYap
+            // button_gitHub
             // 
-            resources.ApplyResources(this.button_cikisYap, "button_cikisYap");
-            this.button_cikisYap.Name = "button_cikisYap";
-            this.button_cikisYap.UseVisualStyleBackColor = true;
-            this.button_cikisYap.Click += new System.EventHandler(this.button_cikisYap_Click);
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.button_gitHub, "button_gitHub");
+            this.button_gitHub.Name = "button_gitHub";
+            this.button_gitHub.UseVisualStyleBackColor = true;
+            this.button_gitHub.Click += new System.EventHandler(this.button1_Click);
             // 
             // button_girisyap
             // 
@@ -215,26 +213,6 @@
             this.button_girisyap.Name = "button_girisyap";
             this.button_girisyap.UseVisualStyleBackColor = true;
             this.button_girisyap.Click += new System.EventHandler(this.girisyap_button_Click);
-            // 
-            // labelIsim
-            // 
-            resources.ApplyResources(this.labelIsim, "labelIsim");
-            this.labelIsim.Name = "labelIsim";
-            // 
-            // labelSoyIsim
-            // 
-            resources.ApplyResources(this.labelSoyIsim, "labelSoyIsim");
-            this.labelSoyIsim.Name = "labelSoyIsim";
-            // 
-            // labelIsimYazan
-            // 
-            resources.ApplyResources(this.labelIsimYazan, "labelIsimYazan");
-            this.labelIsimYazan.Name = "labelIsimYazan";
-            // 
-            // labelSoyIsimYazan
-            // 
-            resources.ApplyResources(this.labelSoyIsimYazan, "labelSoyIsimYazan");
-            this.labelSoyIsimYazan.Name = "labelSoyIsimYazan";
             // 
             // panel_ogrenci
             // 
@@ -259,6 +237,7 @@
             // 
             // pictureBox_profilFoto
             // 
+            this.pictureBox_profilFoto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.pictureBox_profilFoto, "pictureBox_profilFoto");
             this.pictureBox_profilFoto.Name = "pictureBox_profilFoto";
             this.pictureBox_profilFoto.TabStop = false;
@@ -274,16 +253,6 @@
             this.button_profilFoto.Name = "button_profilFoto";
             this.button_profilFoto.UseVisualStyleBackColor = true;
             this.button_profilFoto.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label_roller
-            // 
-            resources.ApplyResources(this.label_roller, "label_roller");
-            this.label_roller.Name = "label_roller";
-            // 
-            // label_rollerYazan
-            // 
-            resources.ApplyResources(this.label_rollerYazan, "label_rollerYazan");
-            this.label_rollerYazan.Name = "label_rollerYazan";
             // 
             // panel_gorevli
             // 
@@ -414,11 +383,6 @@
             this.button3.Name = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // label_sansliSayi
-            // 
-            resources.ApplyResources(this.label_sansliSayi, "label_sansliSayi");
-            this.label_sansliSayi.Name = "label_sansliSayi";
             // 
             // panel_hesapMakinesi
             // 
@@ -556,23 +520,79 @@
             this.button_ogretmen_panel.Name = "button_ogretmen_panel";
             this.button_ogretmen_panel.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.tableLayout_topPanel);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // tableLayout_topPanel
+            // 
+            resources.ApplyResources(this.tableLayout_topPanel, "tableLayout_topPanel");
+            this.tableLayout_topPanel.Controls.Add(this.sukol_icon, 1, 0);
+            this.tableLayout_topPanel.Controls.Add(this.tableLayout_foto, 2, 0);
+            this.tableLayout_topPanel.Controls.Add(this.tableLayout_kullaniciBilgileri, 0, 0);
+            this.tableLayout_topPanel.Name = "tableLayout_topPanel";
+            // 
+            // tableLayout_foto
+            // 
+            resources.ApplyResources(this.tableLayout_foto, "tableLayout_foto");
+            this.tableLayout_foto.Controls.Add(this.pictureBox_profilFoto, 0, 0);
+            this.tableLayout_foto.Controls.Add(this.button_profilFoto, 0, 1);
+            this.tableLayout_foto.Name = "tableLayout_foto";
+            // 
+            // tableLayout_kullaniciBilgileri
+            // 
+            resources.ApplyResources(this.tableLayout_kullaniciBilgileri, "tableLayout_kullaniciBilgileri");
+            this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_sansliSayilar, 0, 3);
+            this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_roller, 0, 2);
+            this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_soyad, 0, 1);
+            this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_ad, 0, 0);
+            this.tableLayout_kullaniciBilgileri.Name = "tableLayout_kullaniciBilgileri";
+            // 
+            // label_ad
+            // 
+            resources.ApplyResources(this.label_ad, "label_ad");
+            this.label_ad.Name = "label_ad";
+            // 
+            // label_soyad
+            // 
+            resources.ApplyResources(this.label_soyad, "label_soyad");
+            this.label_soyad.Name = "label_soyad";
+            // 
+            // label_roller
+            // 
+            resources.ApplyResources(this.label_roller, "label_roller");
+            this.label_roller.Name = "label_roller";
+            // 
+            // label_sansliSayilar
+            // 
+            resources.ApplyResources(this.label_sansliSayilar, "label_sansliSayilar");
+            this.label_sansliSayilar.Name = "label_sansliSayilar";
+            // 
+            // tableLayout_menu
+            // 
+            resources.ApplyResources(this.tableLayout_menu, "tableLayout_menu");
+            this.tableLayout_menu.Controls.Add(this.hakkimizda_button, 0, 0);
+            this.tableLayout_menu.Controls.Add(this.button_girisyap, 0, 1);
+            this.tableLayout_menu.Controls.Add(this.button_gitHub, 0, 3);
+            this.tableLayout_menu.Controls.Add(this.websitemiz_button, 0, 2);
+            this.tableLayout_menu.Name = "tableLayout_menu";
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
+            this.tableLayoutPanel2.Controls.Add(this.tableLayout_menu, 1, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel_ogrenci);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel_ana_sayfa);
+            this.Controls.Add(this.panel_ogrenci);
             this.Controls.Add(this.panel_hesapMakinesi);
-            this.Controls.Add(this.label_sansliSayi);
-            this.Controls.Add(this.label_rollerYazan);
-            this.Controls.Add(this.label_roller);
-            this.Controls.Add(this.button_profilFoto);
-            this.Controls.Add(this.pictureBox_profilFoto);
-            this.Controls.Add(this.labelSoyIsimYazan);
-            this.Controls.Add(this.labelIsimYazan);
-            this.Controls.Add(this.labelSoyIsim);
-            this.Controls.Add(this.labelIsim);
-            this.Controls.Add(this.sukol_icon);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_okulRadyo);
@@ -598,6 +618,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.panel_ogretmen.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.tableLayout_topPanel.ResumeLayout(false);
+            this.tableLayout_foto.ResumeLayout(false);
+            this.tableLayout_kullaniciBilgileri.ResumeLayout(false);
+            this.tableLayout_kullaniciBilgileri.PerformLayout();
+            this.tableLayout_menu.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -615,22 +642,14 @@
         private System.Windows.Forms.Button hakkimizda_button;
         private System.Windows.Forms.Panel panel_ana_sayfa;
         private System.Windows.Forms.Button button_girisyap;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label labelIsim;
-        private System.Windows.Forms.Label labelSoyIsim;
-        private System.Windows.Forms.Label labelIsimYazan;
-        private System.Windows.Forms.Label labelSoyIsimYazan;
-        private System.Windows.Forms.Button button_cikisYap;
+        private System.Windows.Forms.Button button_gitHub;
         private System.Windows.Forms.Panel panel_ogrenci;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox_profilFoto;
         private System.Windows.Forms.Button button_profilFoto;
         private System.Windows.Forms.OpenFileDialog openFileDialog_profilFoto;
-        private System.Windows.Forms.Label label_roller;
-        private System.Windows.Forms.Label label_rollerYazan;
         private System.Windows.Forms.Panel panel_gorevli;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label_sansliSayi;
         private System.Windows.Forms.Panel panel_hesapMakinesi;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label_hesapmakSonuc;
@@ -673,6 +692,16 @@
         private System.Windows.Forms.Panel panel_ogretmen;
         private System.Windows.Forms.Button button_ogretmen_duyurular;
         private System.Windows.Forms.Button button_ogretmen_panel;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayout_topPanel;
+        private System.Windows.Forms.TableLayoutPanel tableLayout_foto;
+        private System.Windows.Forms.TableLayoutPanel tableLayout_kullaniciBilgileri;
+        private System.Windows.Forms.Label label_sansliSayilar;
+        private System.Windows.Forms.Label label_roller;
+        private System.Windows.Forms.Label label_soyad;
+        private System.Windows.Forms.Label label_ad;
+        private System.Windows.Forms.TableLayoutPanel tableLayout_menu;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
     }
 }
 
