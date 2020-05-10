@@ -68,6 +68,24 @@
     <Compile Include="AboutWindow.Designer.cs">
       <DependentUpon>AboutWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="DuyuruEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuyuruEkle.Designer.cs">
+      <DependentUpon>DuyuruEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuyuruItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DuyuruItem.Designer.cs">
+      <DependentUpon>DuyuruItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DuyuruPaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DuyuruPaneli.Designer.cs">
+      <DependentUpon>DuyuruPaneli.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +118,12 @@
     <Compile Include="KullaniciEkleme\OgretmenEkle.Designer.cs">
       <DependentUpon>OgretmenEkle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ogrenci.cs" />
     <Compile Include="Ogretmen.cs" />
     <Compile Include="Program.cs" />
@@ -107,6 +131,15 @@
     <Compile Include="Veritabani.cs" />
     <EmbeddedResource Include="AboutWindow.resx">
       <DependentUpon>AboutWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruEkle.resx">
+      <DependentUpon>DuyuruEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruItem.resx">
+      <DependentUpon>DuyuruItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DuyuruPaneli.resx">
+      <DependentUpon>DuyuruPaneli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAna.resx">
       <DependentUpon>FormAna.cs</DependentUpon>
@@ -123,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="KullaniciEkleme\OgretmenEkle.resx">
       <DependentUpon>OgretmenEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
