@@ -66,7 +66,7 @@ namespace Sukol
         {
             InitializeComponent();
 
-            new Loading(2, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
+            new Loading(0, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
 
             panel_ana_sayfa.BringToFront();
         }
@@ -349,6 +349,11 @@ namespace Sukol
         }
 
         private void button_duyuruEkle_Click(object sender, EventArgs e)
+        {
+            new DuyuruPaneli(kullanici);
+        }
+
+        private void button_ogrenci_duyuru_Click(object sender, EventArgs e)
         {
             new DuyuruPaneli(kullanici);
         }

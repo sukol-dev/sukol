@@ -14,7 +14,7 @@ namespace Sukol
 
         private void GirisYap_Load(object sender, EventArgs e)
         {
-            textBox_kullaniciAdi.Focus();
+            maskedTextBox_sifre.Focus();
         }
 
         private void button_giris_Click(object sender, EventArgs e)

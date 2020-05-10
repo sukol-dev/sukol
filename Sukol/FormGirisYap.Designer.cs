@@ -105,6 +105,7 @@
             this.textBox_kullaniciAdi.Name = "textBox_kullaniciAdi";
             this.textBox_kullaniciAdi.Size = new System.Drawing.Size(100, 20);
             this.textBox_kullaniciAdi.TabIndex = 1;
+            this.textBox_kullaniciAdi.Text = "tester";
             // 
             // button_giris
             // 

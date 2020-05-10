@@ -93,6 +93,7 @@
             this.button_oynat = new System.Windows.Forms.Button();
             this.button_duraklat = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.button_ogrenci_duyuru = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
@@ -232,6 +233,7 @@
             // 
             // panel_ogrenci
             // 
+            this.panel_ogrenci.Controls.Add(this.button_ogrenci_duyuru);
             this.panel_ogrenci.Controls.Add(this.button2);
             resources.ApplyResources(this.panel_ogrenci, "panel_ogrenci");
             this.panel_ogrenci.Name = "panel_ogrenci";
@@ -522,15 +524,20 @@
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             // 
+            // button_ogrenci_duyuru
+            // 
+            resources.ApplyResources(this.button_ogrenci_duyuru, "button_ogrenci_duyuru");
+            this.button_ogrenci_duyuru.Name = "button_ogrenci_duyuru";
+            this.button_ogrenci_duyuru.UseVisualStyleBackColor = true;
+            this.button_ogrenci_duyuru.Click += new System.EventHandler(this.button_ogrenci_duyuru_Click);
+            // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel_gorevli);
-            this.Controls.Add(this.panel_okulRadyo);
+            this.Controls.Add(this.panel_ogrenci);
             this.Controls.Add(this.panel_ana_sayfa);
             this.Controls.Add(this.panel_hesapMakinesi);
-            this.Controls.Add(this.panel_ogrenci);
             this.Controls.Add(this.label_sansliSayi);
             this.Controls.Add(this.label_rollerYazan);
             this.Controls.Add(this.label_roller);
@@ -542,6 +549,8 @@
             this.Controls.Add(this.labelIsim);
             this.Controls.Add(this.sukol_icon);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel_gorevli);
+            this.Controls.Add(this.panel_okulRadyo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -633,6 +642,7 @@
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Button button_oynat;
         private System.Windows.Forms.Button button_duraklat;
+        private System.Windows.Forms.Button button_ogrenci_duyuru;
     }
 }
 
