@@ -369,79 +369,84 @@ namespace Sukol
 
         private void notTutucuToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            panel_not_tutucu.BringToFront();
+            table_notTutucuPanel.BringToFront();
         }
 
         private void checkBox_kalin_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox_kalin.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Bold);
-            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+            if (checkBox_kalin.Checked) richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Bold);
+            else richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Regular);
         }
 
         private void checkBox_altiCizgili_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox_altiCizgili.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Underline);
-            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+            if (checkBox_altiCizgili.Checked) richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Underline);
+            else richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Regular);
         }
 
         private void checkBox_italik_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox_italik.Checked) richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Italic);
-            else richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size, richTextBox1.Font.Style ^ FontStyle.Regular);
+            if (checkBox_italik.Checked) richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Italic);
+            else richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size, richtb_not.Font.Style ^ FontStyle.Regular);
         }
 
         private void radioButton_sol_CheckedChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectAll();
-            richTextBox1.SelectionAlignment = HorizontalAlignment.Left;
+            richtb_not.SelectAll();
+            richtb_not.SelectionAlignment = HorizontalAlignment.Left;
         }
 
         private void radioButton6_CheckedChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectAll();
-            richTextBox1.SelectionAlignment = HorizontalAlignment.Center;
+            richtb_not.SelectAll();
+            richtb_not.SelectionAlignment = HorizontalAlignment.Center;
         }
 
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
-            richTextBox1.SelectAll();
-            richTextBox1.SelectionAlignment = HorizontalAlignment.Right;
+            richtb_not.SelectAll();
+            richtb_not.SelectionAlignment = HorizontalAlignment.Right;
         }
 
         private void button_kirmizi_Click(object sender, EventArgs e)
         {
-            richTextBox1.ForeColor = Color.Red;
+            richtb_not.ForeColor = Color.Red;
         }
 
         private void button_siyah_Click(object sender, EventArgs e)
         {
-            richTextBox1.ForeColor = Color.Black;
+            richtb_not.ForeColor = Color.Black;
         }
 
         private void button_mavi_Click(object sender, EventArgs e)
         {
-            richTextBox1.ForeColor = Color.Blue;
+            richtb_not.ForeColor = Color.Blue;
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
-            richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size + 1, richTextBox1.Font.Style);
+            richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size + 1, richtb_not.Font.Style);
         }
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            if(richTextBox1.Text != "")
-                Clipboard.SetText(richTextBox1.Text);
+            if(richtb_not.Text != "")
+                Clipboard.SetText(richtb_not.Text);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            richTextBox1.Clear();
+            richtb_not.Clear();
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
-            richTextBox1.Font = new Font(richTextBox1.Font.Name, richTextBox1.Font.Size - 1, richTextBox1.Font.Style);
+            richtb_not.Font = new Font(richtb_not.Font.Name, richtb_not.Font.Size - 1, richtb_not.Font.Style);
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
