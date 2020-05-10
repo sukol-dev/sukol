@@ -67,7 +67,7 @@ namespace Sukol
 
         void LoadDuyurular(bool a)
         {
-            db.sorgu("SELECT kullanici_id, metin, tarih FROM duyurular WHERE sinif_ad=@sinif_adi");
+            db.sorgu("SELECT (SELECT isim + ' ' + soyisim FROM kullanicilar WHERE duyurular.kullanici_id=kullanicilar.id), metin, tarih FROM duyurular WHERE sinif_ad=@sinif_adi");
 
             if (sinif == null)
             {
