@@ -566,6 +566,7 @@
             // 
             // tableLayout_topPanel
             // 
+            this.tableLayout_topPanel.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this.tableLayout_topPanel, "tableLayout_topPanel");
             this.tableLayout_topPanel.Controls.Add(this.sukol_icon, 1, 0);
             this.tableLayout_topPanel.Controls.Add(this.tableLayout_foto, 2, 0);
@@ -581,6 +582,7 @@
             // 
             // tableLayout_kullaniciBilgileri
             // 
+            this.tableLayout_kullaniciBilgileri.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this.tableLayout_kullaniciBilgileri, "tableLayout_kullaniciBilgileri");
             this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_sansliSayilar, 0, 3);
             this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_roller, 0, 2);

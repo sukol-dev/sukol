@@ -121,13 +121,37 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="anaSayfaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
   </data>
   <data name="anaSayfaToolStripMenuItem.Text" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="görevliToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -160,30 +184,6 @@
   </data>
   <data name="diğerToolStripMenuItem.Text" xml:space="preserve">
     <value>Diğer</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 24</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="hesapMakinesiToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 22</value>
@@ -625,14 +625,152 @@
   <data name="&gt;&gt;hakkimizda_button.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>panel_ana_sayfa</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayout_menu" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 183</value>
+  </data>
+  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 374</value>
+  </data>
+  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
+    <value>panel_ana_sayfa</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="tableLayoutPanel2.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
     <value>Single</value>
   </data>
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;tableLayout_menu.Name" xml:space="preserve">
+    <value>tableLayout_menu</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayout_menu.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="hakkimizda_button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_girisyap" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_gitHub" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="websitemiz_button" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,20,Percent,40,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 374</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>panel_ana_sayfa</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayout_menu" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
   <data name="tableLayout_menu.ColumnCount" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_girisyap.Name" xml:space="preserve">
+    <value>button_girisyap</value>
+  </data>
+  <data name="&gt;&gt;button_girisyap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_girisyap.Parent" xml:space="preserve">
+    <value>tableLayout_menu</value>
+  </data>
+  <data name="&gt;&gt;button_girisyap.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_gitHub.Name" xml:space="preserve">
+    <value>button_gitHub</value>
+  </data>
+  <data name="&gt;&gt;button_gitHub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_gitHub.Parent" xml:space="preserve">
+    <value>tableLayout_menu</value>
+  </data>
+  <data name="&gt;&gt;button_gitHub.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayout_menu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayout_menu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 4</value>
+  </data>
+  <data name="tableLayout_menu.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tableLayout_menu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>345, 366</value>
+  </data>
+  <data name="tableLayout_menu.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.Name" xml:space="preserve">
+    <value>tableLayout_menu</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayout_menu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayout_menu.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="hakkimizda_button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_girisyap" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_gitHub" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="websitemiz_button" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,20,Percent,40,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="button_girisyap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -712,89 +850,53 @@
   <data name="&gt;&gt;button_gitHub.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="tableLayout_menu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
   </data>
-  <data name="tableLayout_menu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>356, 4</value>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tableLayout_menu.RowCount" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel_ogrenci</value>
   </data>
-  <data name="tableLayout_menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>345, 366</value>
-  </data>
-  <data name="tableLayout_menu.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;tableLayout_menu.Name" xml:space="preserve">
-    <value>tableLayout_menu</value>
-  </data>
-  <data name="&gt;&gt;tableLayout_menu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayout_menu.Parent" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;tableLayout_menu.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="tableLayout_menu.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="hakkimizda_button" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_girisyap" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_gitHub" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="websitemiz_button" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,20,Percent,40,Percent,20,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  <data name="&gt;&gt;button_ogrenci_duyuru.Name" xml:space="preserve">
+    <value>button_ogrenci_duyuru</value>
   </data>
-  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;button_ogrenci_duyuru.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;button_ogrenci_duyuru.Parent" xml:space="preserve">
+    <value>panel_ogrenci</value>
   </data>
-  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;button_ogrenci_duyuru.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 374</value>
-  </data>
-  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayout_menu" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="panel_ogrenci.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 183</value>
+  <data name="panel_ogrenci.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
   </data>
-  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 374</value>
+  <data name="panel_ogrenci.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 533</value>
   </data>
-  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="panel_ogrenci.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
+  <data name="&gt;&gt;panel_ogrenci.Name" xml:space="preserve">
+    <value>panel_ogrenci</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel_ogrenci.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel_ogrenci.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;panel_ogrenci.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -849,30 +951,6 @@
   </data>
   <data name="&gt;&gt;button_ogrenci_duyuru.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="panel_ogrenci.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_ogrenci.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="panel_ogrenci.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 533</value>
-  </data>
-  <data name="panel_ogrenci.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel_ogrenci.Name" xml:space="preserve">
-    <value>panel_ogrenci</value>
-  </data>
-  <data name="&gt;&gt;panel_ogrenci.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_ogrenci.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_ogrenci.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="pictureBox_profilFoto.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -942,6 +1020,174 @@
   </data>
   <data name="&gt;&gt;button_profilFoto.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;button5.Name" xml:space="preserve">
+    <value>button5</value>
+  </data>
+  <data name="&gt;&gt;button5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_duyuruEkle.Name" xml:space="preserve">
+    <value>button_duyuruEkle</value>
+  </data>
+  <data name="&gt;&gt;button_duyuruEkle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_duyuruEkle.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;button_duyuruEkle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Name" xml:space="preserve">
+    <value>button_YeniSinif</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;button_YeniSinif.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Name" xml:space="preserve">
+    <value>textBox_yeniSinif</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;textBox_yeniSinif.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Name" xml:space="preserve">
+    <value>label_yeniSinif</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_yeniSinif.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Name" xml:space="preserve">
+    <value>listView_sinifOgretmen</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgretmen.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Name" xml:space="preserve">
+    <value>listView_sinifOgrenci</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;listView_sinifOgrenci.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Name" xml:space="preserve">
+    <value>label_sinifOgretmenListesi</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgretmenListesi.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Name" xml:space="preserve">
+    <value>label_sinifOgrenciListesi</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_sinifOgrenciListesi.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label_siniflar.Name" xml:space="preserve">
+    <value>label_siniflar</value>
+  </data>
+  <data name="&gt;&gt;label_siniflar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_siniflar.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;label_siniflar.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;listBox_siniflar.Name" xml:space="preserve">
+    <value>listBox_siniflar</value>
+  </data>
+  <data name="&gt;&gt;listBox_siniflar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox_siniflar.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;listBox_siniflar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="panel_gorevli.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_gorevli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_gorevli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 557</value>
+  </data>
+  <data name="panel_gorevli.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Name" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1093,6 +1339,24 @@
   <data name="&gt;&gt;listView_sinifOgretmen.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>İsim Soyisim</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
   <data name="listView_sinifOgrenci.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 29</value>
   </data>
@@ -1116,6 +1380,27 @@
   </data>
   <data name="&gt;&gt;listView_sinifOgrenci.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="isim_soyisim.Text" xml:space="preserve">
+    <value>İsim Soyisim</value>
+  </data>
+  <data name="isim_soyisim.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="numara.Text" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="numara.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="k_adi.Text" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="k_adi.Width" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="sifre.Text" xml:space="preserve">
+    <value>Şifre</value>
   </data>
   <data name="label_sinifOgretmenListesi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1258,68 +1543,149 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="panel_gorevli.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;label_hesapmakSonuc.Name" xml:space="preserve">
+    <value>label_hesapmakSonuc</value>
   </data>
-  <data name="panel_gorevli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;label_hesapmakSonuc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panel_gorevli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 557</value>
+  <data name="&gt;&gt;label_hesapmakSonuc.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
   </data>
-  <data name="panel_gorevli.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="&gt;&gt;label_hesapmakSonuc.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;panel_gorevli.Name" xml:space="preserve">
-    <value>panel_gorevli</value>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
   </data>
-  <data name="&gt;&gt;panel_gorevli.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel_gorevli.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
   </data>
-  <data name="&gt;&gt;panel_gorevli.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
+    <value>radioButton1</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
+    <value>radioButton2</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>İsim Soyisim</value>
+  <data name="&gt;&gt;button4.Name" xml:space="preserve">
+    <value>button4</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>96</value>
+  <data name="&gt;&gt;button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="columnHeader2.Text" xml:space="preserve">
-    <value>Kullanıcı Adı</value>
+  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
   </data>
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>84</value>
+  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="columnHeader3.Text" xml:space="preserve">
-    <value>Şifre</value>
+  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
+    <value>radioButton3</value>
   </data>
-  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
-    <value>74</value>
+  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="isim_soyisim.Text" xml:space="preserve">
-    <value>İsim Soyisim</value>
+  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
   </data>
-  <data name="isim_soyisim.Width" type="System.Int32, mscorlib">
-    <value>96</value>
+  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="numara.Text" xml:space="preserve">
-    <value>Numara</value>
+  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
+    <value>radioButton4</value>
   </data>
-  <data name="numara.Width" type="System.Int32, mscorlib">
-    <value>114</value>
+  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="k_adi.Text" xml:space="preserve">
-    <value>Kullanıcı Adı</value>
+  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
   </data>
-  <data name="k_adi.Width" type="System.Int32, mscorlib">
-    <value>85</value>
+  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="sifre.Text" xml:space="preserve">
-    <value>Şifre</value>
+  <data name="panel_hesapMakinesi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_hesapMakinesi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="panel_hesapMakinesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 533</value>
+  </data>
+  <data name="panel_hesapMakinesi.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Name" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="label_hesapmakSonuc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1600,35 +1966,83 @@
   <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="panel_hesapMakinesi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_hesapMakinesi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="panel_hesapMakinesi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 533</value>
-  </data>
-  <data name="panel_hesapMakinesi.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Name" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <metadata name="openFileDialog_radyo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>272, 8</value>
   </metadata>
   <data name="openFileDialog_radyo.Filter" xml:space="preserve">
     <value>Audio (*.cs,*.acc,*wma)|*.cs;*.mp3;*.wma</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
+    <value>trackBar1</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_oynat.Name" xml:space="preserve">
+    <value>button_oynat</value>
+  </data>
+  <data name="&gt;&gt;button_oynat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_oynat.Parent" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;button_oynat.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_duraklat.Name" xml:space="preserve">
+    <value>button_duraklat</value>
+  </data>
+  <data name="&gt;&gt;button_duraklat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_duraklat.Parent" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;button_duraklat.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Name" xml:space="preserve">
+    <value>axWindowsMediaPlayer1</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Type" xml:space="preserve">
+    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.Parent" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel_okulRadyo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_okulRadyo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_okulRadyo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 557</value>
+  </data>
+  <data name="panel_okulRadyo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Name" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>377, 155</value>
@@ -1739,30 +2153,6 @@
   </data>
   <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="panel_okulRadyo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_okulRadyo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel_okulRadyo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 557</value>
-  </data>
-  <data name="panel_okulRadyo.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Name" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="button_ogretmen_duyurular.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2100,24 +2490,6 @@
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 18</value>
-  </data>
-  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 13</value>
-  </data>
-  <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Öğretmen Paneli</value>
-  </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
   </data>
@@ -2154,620 +2526,38 @@
   <data name="&gt;&gt;panel_ogretmen.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 18</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Öğretmen Paneli</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>panel_ogretmen</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="table_notTutucuPanel.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="table_notTutucu.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
-    <value>Single</value>
-  </data>
-  <data name="table_notTutucu.ColumnCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="table_notTutucu_bot.ColumnCount" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="button_notTutucu_kopyala.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="button_notTutucu_kopyala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button_notTutucu_kopyala.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 20</value>
-  </data>
-  <data name="button_notTutucu_kopyala.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 20, 20, 20</value>
-  </data>
-  <data name="button_notTutucu_kopyala.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 64</value>
-  </data>
-  <data name="button_notTutucu_kopyala.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="button_notTutucu_kopyala.Text" xml:space="preserve">
-    <value>Kopyala</value>
-  </data>
-  <data name="&gt;&gt;button_notTutucu_kopyala.Name" xml:space="preserve">
-    <value>button_notTutucu_kopyala</value>
-  </data>
-  <data name="&gt;&gt;button_notTutucu_kopyala.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_notTutucu_kopyala.Parent" xml:space="preserve">
-    <value>table_notTutucu_bot</value>
-  </data>
-  <data name="&gt;&gt;button_notTutucu_kopyala.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 20</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>20, 20, 20, 20</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 27</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="button6button_notTutucu_temizle.Text" xml:space="preserve">
-    <value>Temizle</value>
-  </data>
-  <data name="&gt;&gt;button6button_notTutucu_temizle.Name" xml:space="preserve">
-    <value>button6button_notTutucu_temizle</value>
-  </data>
-  <data name="&gt;&gt;button6button_notTutucu_temizle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button6button_notTutucu_temizle.Parent" xml:space="preserve">
-    <value>table_notTutucu_bot</value>
-  </data>
-  <data name="&gt;&gt;button6button_notTutucu_temizle.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="button_kirmizi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="button_kirmizi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button_kirmizi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button_kirmizi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="button_kirmizi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 12, 12, 12</value>
-  </data>
-  <data name="button_kirmizi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 74</value>
-  </data>
-  <data name="button_kirmizi.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;button_kirmizi.Name" xml:space="preserve">
-    <value>button_kirmizi</value>
-  </data>
-  <data name="&gt;&gt;button_kirmizi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_kirmizi.Parent" xml:space="preserve">
-    <value>tableLayoutPanel5</value>
-  </data>
-  <data name="&gt;&gt;button_kirmizi.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="button_mavi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="button_mavi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button_mavi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button_mavi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 12</value>
-  </data>
-  <data name="button_mavi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 12, 12, 12</value>
-  </data>
-  <data name="button_mavi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 74</value>
-  </data>
-  <data name="button_mavi.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;button_mavi.Name" xml:space="preserve">
-    <value>button_mavi</value>
-  </data>
-  <data name="&gt;&gt;button_mavi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_mavi.Parent" xml:space="preserve">
-    <value>tableLayoutPanel5</value>
-  </data>
-  <data name="&gt;&gt;button_mavi.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button_siyah.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="button_siyah.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button_siyah.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button_siyah.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 12</value>
-  </data>
-  <data name="button_siyah.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>12, 12, 12, 12</value>
-  </data>
-  <data name="button_siyah.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 74</value>
-  </data>
-  <data name="button_siyah.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;button_siyah.Name" xml:space="preserve">
-    <value>button_siyah</value>
-  </data>
-  <data name="&gt;&gt;button_siyah.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_siyah.Parent" xml:space="preserve">
-    <value>tableLayoutPanel5</value>
-  </data>
-  <data name="&gt;&gt;button_siyah.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 3</value>
-  </data>
-  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 98</value>
-  </data>
-  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
-    <value>tableLayoutPanel5</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
-    <value>table_notTutucu_bot</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_kirmizi" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_mavi" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button_siyah" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="table_notTutucu_bot.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="table_notTutucu_bot.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 443</value>
-  </data>
-  <data name="table_notTutucu_bot.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="table_notTutucu_bot.Size" type="System.Drawing.Size, System.Drawing">
-    <value>620, 104</value>
-  </data>
-  <data name="table_notTutucu_bot.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_bot.Name" xml:space="preserve">
-    <value>table_notTutucu_bot</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_bot.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_bot.Parent" xml:space="preserve">
-    <value>table_notTutucu</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_bot.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="table_notTutucu_bot.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_notTutucu_kopyala" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button6button_notTutucu_temizle" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,15,Percent,30,Percent,15,Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="table_notTutucu_top.ColumnCount" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="checkBox_kalin.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox_kalin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="checkBox_kalin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox_kalin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 10</value>
-  </data>
-  <data name="checkBox_kalin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="checkBox_kalin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 56</value>
-  </data>
-  <data name="checkBox_kalin.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="checkBox_kalin.Text" xml:space="preserve">
-    <value>Kalın</value>
-  </data>
-  <data name="&gt;&gt;checkBox_kalin.Name" xml:space="preserve">
-    <value>checkBox_kalin</value>
-  </data>
-  <data name="&gt;&gt;checkBox_kalin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_kalin.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;checkBox_kalin.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="radioButton_sol.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton_sol.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioButton_sol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton_sol.Location" type="System.Drawing.Point, System.Drawing">
-    <value>544, 10</value>
-  </data>
-  <data name="radioButton_sol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="radioButton_sol.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 56</value>
-  </data>
-  <data name="radioButton_sol.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="radioButton_sol.Text" xml:space="preserve">
-    <value>Sol</value>
-  </data>
-  <data name="&gt;&gt;radioButton_sol.Name" xml:space="preserve">
-    <value>radioButton_sol</value>
-  </data>
-  <data name="&gt;&gt;radioButton_sol.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton_sol.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;radioButton_sol.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>462, 10</value>
-  </data>
-  <data name="radioButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 56</value>
-  </data>
-  <data name="radioButton6.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="radioButton6.Text" xml:space="preserve">
-    <value>Orta</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
-    <value>radioButton6</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="checkBox_italik.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox_italik.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="checkBox_italik.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox_italik.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 10</value>
-  </data>
-  <data name="checkBox_italik.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="checkBox_italik.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 56</value>
-  </data>
-  <data name="checkBox_italik.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="checkBox_italik.Text" xml:space="preserve">
-    <value>İtalik</value>
-  </data>
-  <data name="&gt;&gt;checkBox_italik.Name" xml:space="preserve">
-    <value>checkBox_italik</value>
-  </data>
-  <data name="&gt;&gt;checkBox_italik.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_italik.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;checkBox_italik.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="radioButton7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radioButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="radioButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="radioButton7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>380, 10</value>
-  </data>
-  <data name="radioButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 56</value>
-  </data>
-  <data name="radioButton7.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="radioButton7.Text" xml:space="preserve">
-    <value>Sağ</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
-    <value>radioButton7</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="checkBox_altiCizgili.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="checkBox_altiCizgili.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="checkBox_altiCizgili.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="checkBox_altiCizgili.Location" type="System.Drawing.Point, System.Drawing">
-    <value>174, 10</value>
-  </data>
-  <data name="checkBox_altiCizgili.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="checkBox_altiCizgili.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 56</value>
-  </data>
-  <data name="checkBox_altiCizgili.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="checkBox_altiCizgili.Text" xml:space="preserve">
-    <value>Çizili</value>
-  </data>
-  <data name="&gt;&gt;checkBox_altiCizgili.Name" xml:space="preserve">
-    <value>checkBox_altiCizgili</value>
-  </data>
-  <data name="&gt;&gt;checkBox_altiCizgili.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;checkBox_altiCizgili.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;checkBox_altiCizgili.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label_notBuyut.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_notBuyut.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label_notBuyut.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
-  </data>
-  <data name="label_notBuyut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_notBuyut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 10</value>
-  </data>
-  <data name="label_notBuyut.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="label_notBuyut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 56</value>
-  </data>
-  <data name="label_notBuyut.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="label_notBuyut.Text" xml:space="preserve">
-    <value>+</value>
-  </data>
-  <data name="label_notBuyut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_notBuyut.Name" xml:space="preserve">
-    <value>label_notBuyut</value>
-  </data>
-  <data name="&gt;&gt;label_notBuyut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_notBuyut.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;label_notBuyut.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label_notKucult.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label_notKucult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="label_notKucult.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
-  </data>
-  <data name="label_notKucult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label_notKucult.Location" type="System.Drawing.Point, System.Drawing">
-    <value>318, 10</value>
-  </data>
-  <data name="label_notKucult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="label_notKucult.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 56</value>
-  </data>
-  <data name="label_notKucult.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="label_notKucult.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="label_notKucult.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;label_notKucult.Name" xml:space="preserve">
-    <value>label_notKucult</value>
-  </data>
-  <data name="&gt;&gt;label_notKucult.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_notKucult.Parent" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;label_notKucult.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="table_notTutucu_top.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="table_notTutucu_top.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="table_notTutucu_top.RowCount" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="table_notTutucu_top.Size" type="System.Drawing.Size, System.Drawing">
-    <value>620, 76</value>
-  </data>
-  <data name="table_notTutucu_top.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_top.Name" xml:space="preserve">
-    <value>table_notTutucu_top</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_top.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_top.Parent" xml:space="preserve">
-    <value>table_notTutucu</value>
-  </data>
-  <data name="&gt;&gt;table_notTutucu_top.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="table_notTutucu_top.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="checkBox_kalin" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioButton_sol" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="radioButton6" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_italik" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioButton7" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_altiCizgili" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label_notBuyut" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label_notKucult" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,13,33267,Percent,13,33267,Percent,13,33267,Percent,10,002,Percent,10,002,Percent,13,33267,Percent,13,33267,Percent,13,33267" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="richtb_not.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="richtb_not.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 94</value>
-  </data>
-  <data name="richtb_not.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="richtb_not.Size" type="System.Drawing.Size, System.Drawing">
-    <value>606, 335</value>
-  </data>
-  <data name="richtb_not.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="richtb_not.Text" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;richtb_not.Name" xml:space="preserve">
-    <value>richtb_not</value>
-  </data>
-  <data name="&gt;&gt;richtb_not.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;richtb_not.Parent" xml:space="preserve">
-    <value>table_notTutucu</value>
-  </data>
-  <data name="&gt;&gt;richtb_not.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="table_notTutucu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="table_notTutucu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 3</value>
-  </data>
-  <data name="table_notTutucu.RowCount" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="table_notTutucu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>628, 551</value>
-  </data>
-  <data name="table_notTutucu.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
   </data>
   <data name="&gt;&gt;table_notTutucu.Name" xml:space="preserve">
     <value>table_notTutucu</value>
@@ -2814,11 +2604,854 @@
   <data name="table_notTutucuPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="table_notTutucu" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,60,Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="table_notTutucu.CellBorderStyle" type="System.Windows.Forms.TableLayoutPanelCellBorderStyle, System.Windows.Forms">
+    <value>Single</value>
+  </data>
+  <data name="table_notTutucu.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Name" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="table_notTutucu_bot.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_notTutucu_kopyala" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button6button_notTutucu_temizle" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,15,Percent,30,Percent,15,Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Name" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="table_notTutucu_top.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="checkBox_kalin" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioButton_sol" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="radioButton6" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_italik" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioButton7" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_altiCizgili" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label_notBuyut" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label_notKucult" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,13,33267,Percent,13,33267,Percent,13,33267,Percent,10,002,Percent,10,002,Percent,13,33267,Percent,13,33267,Percent,13,33267" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.Name" xml:space="preserve">
+    <value>richtb_not</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="table_notTutucu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="table_notTutucu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 0</value>
+  </data>
+  <data name="table_notTutucu.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="table_notTutucu.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="table_notTutucu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 557</value>
+  </data>
+  <data name="table_notTutucu.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu.Name" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu.Parent" xml:space="preserve">
+    <value>table_notTutucuPanel</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="table_notTutucu.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="table_notTutucu_bot" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="table_notTutucu_top" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="richtb_not" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,15,Percent,65,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="table_notTutucu_bot.ColumnCount" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Name" xml:space="preserve">
+    <value>button_notTutucu_kopyala</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Name" xml:space="preserve">
+    <value>button6button_notTutucu_temizle</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_kirmizi" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_mavi" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button_siyah" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="table_notTutucu_bot.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="table_notTutucu_bot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 447</value>
+  </data>
+  <data name="table_notTutucu_bot.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="table_notTutucu_bot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 106</value>
+  </data>
+  <data name="table_notTutucu_bot.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Name" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_bot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="table_notTutucu_bot.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_notTutucu_kopyala" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button6button_notTutucu_temizle" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel5" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,20,Percent,15,Percent,30,Percent,15,Percent,20" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="button_notTutucu_kopyala.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_notTutucu_kopyala.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_notTutucu_kopyala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="button_notTutucu_kopyala.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="button_notTutucu_kopyala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 66</value>
+  </data>
+  <data name="button_notTutucu_kopyala.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_notTutucu_kopyala.Text" xml:space="preserve">
+    <value>Kopyala</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Name" xml:space="preserve">
+    <value>button_notTutucu_kopyala</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;button_notTutucu_kopyala.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>518, 20</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>20, 20, 20, 20</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 27</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button6button_notTutucu_temizle.Text" xml:space="preserve">
+    <value>Temizle</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Name" xml:space="preserve">
+    <value>button6button_notTutucu_temizle</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;button6button_notTutucu_temizle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel5.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Name" xml:space="preserve">
+    <value>button_kirmizi</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Name" xml:space="preserve">
+    <value>button_mavi</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Name" xml:space="preserve">
+    <value>button_siyah</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 3</value>
+  </data>
+  <data name="tableLayoutPanel5.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 100</value>
+  </data>
+  <data name="tableLayoutPanel5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Name" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.Parent" xml:space="preserve">
+    <value>table_notTutucu_bot</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel5.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button_kirmizi" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button_mavi" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button_siyah" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33,33333,Percent,33,33333,Percent,33,33333" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="button_kirmizi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_kirmizi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button_kirmizi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_kirmizi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="button_kirmizi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="button_kirmizi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 76</value>
+  </data>
+  <data name="button_kirmizi.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Name" xml:space="preserve">
+    <value>button_kirmizi</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_kirmizi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_mavi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_mavi.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button_mavi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_mavi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 12</value>
+  </data>
+  <data name="button_mavi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="button_mavi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 76</value>
+  </data>
+  <data name="button_mavi.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Name" xml:space="preserve">
+    <value>button_mavi</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_mavi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button_siyah.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="button_siyah.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button_siyah.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_siyah.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 12</value>
+  </data>
+  <data name="button_siyah.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>12, 12, 12, 12</value>
+  </data>
+  <data name="button_siyah.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 76</value>
+  </data>
+  <data name="button_siyah.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Name" xml:space="preserve">
+    <value>button_siyah</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.Parent" xml:space="preserve">
+    <value>tableLayoutPanel5</value>
+  </data>
+  <data name="&gt;&gt;button_siyah.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="table_notTutucu_top.ColumnCount" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Name" xml:space="preserve">
+    <value>checkBox_kalin</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Name" xml:space="preserve">
+    <value>radioButton_sol</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
+    <value>radioButton6</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Name" xml:space="preserve">
+    <value>checkBox_italik</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
+    <value>radioButton7</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Name" xml:space="preserve">
+    <value>checkBox_altiCizgili</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Name" xml:space="preserve">
+    <value>label_notBuyut</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Name" xml:space="preserve">
+    <value>label_notKucult</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="table_notTutucu_top.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="table_notTutucu_top.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="table_notTutucu_top.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="table_notTutucu_top.Size" type="System.Drawing.Size, System.Drawing">
+    <value>626, 76</value>
+  </data>
+  <data name="table_notTutucu_top.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Name" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;table_notTutucu_top.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="table_notTutucu_top.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="checkBox_kalin" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="radioButton_sol" Row="0" RowSpan="1" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="radioButton6" Row="0" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_italik" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="radioButton7" Row="0" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="checkBox_altiCizgili" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="label_notBuyut" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label_notKucult" Row="0" RowSpan="1" Column="4" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,13,33267,Percent,13,33267,Percent,13,33267,Percent,10,002,Percent,10,002,Percent,13,33267,Percent,13,33267,Percent,13,33267" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="checkBox_kalin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_kalin.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="checkBox_kalin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_kalin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 10</value>
+  </data>
+  <data name="checkBox_kalin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="checkBox_kalin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 56</value>
+  </data>
+  <data name="checkBox_kalin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="checkBox_kalin.Text" xml:space="preserve">
+    <value>Kalın</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Name" xml:space="preserve">
+    <value>checkBox_kalin</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_kalin.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton_sol.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton_sol.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioButton_sol.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton_sol.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 10</value>
+  </data>
+  <data name="radioButton_sol.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="radioButton_sol.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 56</value>
+  </data>
+  <data name="radioButton_sol.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="radioButton_sol.Text" xml:space="preserve">
+    <value>Sol</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Name" xml:space="preserve">
+    <value>radioButton_sol</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton_sol.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioButton6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>466, 10</value>
+  </data>
+  <data name="radioButton6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="radioButton6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 56</value>
+  </data>
+  <data name="radioButton6.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="radioButton6.Text" xml:space="preserve">
+    <value>Orta</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Name" xml:space="preserve">
+    <value>radioButton6</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBox_italik.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_italik.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="checkBox_italik.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_italik.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 10</value>
+  </data>
+  <data name="checkBox_italik.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="checkBox_italik.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 56</value>
+  </data>
+  <data name="checkBox_italik.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="checkBox_italik.Text" xml:space="preserve">
+    <value>İtalik</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Name" xml:space="preserve">
+    <value>checkBox_italik</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_italik.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="radioButton7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="radioButton7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 10</value>
+  </data>
+  <data name="radioButton7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="radioButton7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 56</value>
+  </data>
+  <data name="radioButton7.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="radioButton7.Text" xml:space="preserve">
+    <value>Sağ</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Name" xml:space="preserve">
+    <value>radioButton7</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;radioButton7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBox_altiCizgili.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox_altiCizgili.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="checkBox_altiCizgili.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox_altiCizgili.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 10</value>
+  </data>
+  <data name="checkBox_altiCizgili.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="checkBox_altiCizgili.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 56</value>
+  </data>
+  <data name="checkBox_altiCizgili.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="checkBox_altiCizgili.Text" xml:space="preserve">
+    <value>Çizili</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Name" xml:space="preserve">
+    <value>checkBox_altiCizgili</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;checkBox_altiCizgili.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label_notBuyut.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_notBuyut.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label_notBuyut.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="label_notBuyut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_notBuyut.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 10</value>
+  </data>
+  <data name="label_notBuyut.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="label_notBuyut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 56</value>
+  </data>
+  <data name="label_notBuyut.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label_notBuyut.Text" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="label_notBuyut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Name" xml:space="preserve">
+    <value>label_notBuyut</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;label_notBuyut.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label_notKucult.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label_notKucult.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label_notKucult.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="label_notKucult.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label_notKucult.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 10</value>
+  </data>
+  <data name="label_notKucult.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="label_notKucult.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 56</value>
+  </data>
+  <data name="label_notKucult.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label_notKucult.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="label_notKucult.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Name" xml:space="preserve">
+    <value>label_notKucult</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.Parent" xml:space="preserve">
+    <value>table_notTutucu_top</value>
+  </data>
+  <data name="&gt;&gt;label_notKucult.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="richtb_not.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="richtb_not.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 94</value>
+  </data>
+  <data name="richtb_not.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="richtb_not.Size" type="System.Drawing.Size, System.Drawing">
+    <value>612, 339</value>
+  </data>
+  <data name="richtb_not.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="richtb_not.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;richtb_not.Name" xml:space="preserve">
+    <value>richtb_not</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.Parent" xml:space="preserve">
+    <value>table_notTutucu</value>
+  </data>
+  <data name="&gt;&gt;richtb_not.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>30</value>
+    <value>68</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
