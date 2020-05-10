@@ -37,15 +37,18 @@
             this.diğerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hesapMakinesiToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.okulRadyosuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.notTutucuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sukol_icon = new System.Windows.Forms.PictureBox();
             this.websitemiz_button = new System.Windows.Forms.Button();
             this.hakkimizda_button = new System.Windows.Forms.Button();
             this.panel_ana_sayfa = new System.Windows.Forms.Panel();
-            this.button_gitHub = new System.Windows.Forms.Button();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayout_menu = new System.Windows.Forms.TableLayoutPanel();
             this.button_girisyap = new System.Windows.Forms.Button();
+            this.button_gitHub = new System.Windows.Forms.Button();
             this.panel_ogrenci = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.button_ogrenci_duyuru = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.pictureBox_profilFoto = new System.Windows.Forms.PictureBox();
             this.openFileDialog_profilFoto = new System.Windows.Forms.OpenFileDialog();
             this.button_profilFoto = new System.Windows.Forms.Button();
@@ -86,22 +89,38 @@
             this.button_oynat = new System.Windows.Forms.Button();
             this.button_duraklat = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
-            this.panel_ogretmen = new System.Windows.Forms.Panel();
             this.button_ogretmen_duyurular = new System.Windows.Forms.Button();
             this.button_ogretmen_panel = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayout_topPanel = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayout_foto = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayout_kullaniciBilgileri = new System.Windows.Forms.TableLayoutPanel();
-            this.label_ad = new System.Windows.Forms.Label();
-            this.label_soyad = new System.Windows.Forms.Label();
-            this.label_roller = new System.Windows.Forms.Label();
             this.label_sansliSayilar = new System.Windows.Forms.Label();
-            this.tableLayout_menu = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label_roller = new System.Windows.Forms.Label();
+            this.label_soyad = new System.Windows.Forms.Label();
+            this.label_ad = new System.Windows.Forms.Label();
+            this.panel_ogretmen = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel_not_tutucu = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton_sol = new System.Windows.Forms.RadioButton();
+            this.checkBox_italik = new System.Windows.Forms.CheckBox();
+            this.checkBox_altiCizgili = new System.Windows.Forms.CheckBox();
+            this.checkBox_kalin = new System.Windows.Forms.CheckBox();
+            this.button_mavi = new System.Windows.Forms.Button();
+            this.button_siyah = new System.Windows.Forms.Button();
+            this.button_kirmizi = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).BeginInit();
             this.panel_ana_sayfa.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayout_menu.SuspendLayout();
             this.panel_ogrenci.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).BeginInit();
             this.panel_gorevli.SuspendLayout();
@@ -109,13 +128,12 @@
             this.panel_okulRadyo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
-            this.panel_ogretmen.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayout_topPanel.SuspendLayout();
             this.tableLayout_foto.SuspendLayout();
             this.tableLayout_kullaniciBilgileri.SuspendLayout();
-            this.tableLayout_menu.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.panel_ogretmen.SuspendLayout();
+            this.panel_not_tutucu.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -157,7 +175,8 @@
             // 
             this.diğerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.hesapMakinesiToolStripMenuItem1,
-            this.okulRadyosuToolStripMenuItem1});
+            this.okulRadyosuToolStripMenuItem1,
+            this.notTutucuToolStripMenuItem});
             this.diğerToolStripMenuItem.Name = "diğerToolStripMenuItem";
             resources.ApplyResources(this.diğerToolStripMenuItem, "diğerToolStripMenuItem");
             // 
@@ -172,6 +191,12 @@
             this.okulRadyosuToolStripMenuItem1.Name = "okulRadyosuToolStripMenuItem1";
             resources.ApplyResources(this.okulRadyosuToolStripMenuItem1, "okulRadyosuToolStripMenuItem1");
             this.okulRadyosuToolStripMenuItem1.Click += new System.EventHandler(this.okulRadyosuToolStripMenuItem1_Click);
+            // 
+            // notTutucuToolStripMenuItem
+            // 
+            this.notTutucuToolStripMenuItem.Name = "notTutucuToolStripMenuItem";
+            resources.ApplyResources(this.notTutucuToolStripMenuItem, "notTutucuToolStripMenuItem");
+            this.notTutucuToolStripMenuItem.Click += new System.EventHandler(this.notTutucuToolStripMenuItem_Click);
             // 
             // sukol_icon
             // 
@@ -200,12 +225,20 @@
             resources.ApplyResources(this.panel_ana_sayfa, "panel_ana_sayfa");
             this.panel_ana_sayfa.Name = "panel_ana_sayfa";
             // 
-            // button_gitHub
+            // tableLayoutPanel2
             // 
-            resources.ApplyResources(this.button_gitHub, "button_gitHub");
-            this.button_gitHub.Name = "button_gitHub";
-            this.button_gitHub.UseVisualStyleBackColor = true;
-            this.button_gitHub.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
+            this.tableLayoutPanel2.Controls.Add(this.tableLayout_menu, 1, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // tableLayout_menu
+            // 
+            resources.ApplyResources(this.tableLayout_menu, "tableLayout_menu");
+            this.tableLayout_menu.Controls.Add(this.hakkimizda_button, 0, 0);
+            this.tableLayout_menu.Controls.Add(this.button_girisyap, 0, 1);
+            this.tableLayout_menu.Controls.Add(this.button_gitHub, 0, 3);
+            this.tableLayout_menu.Controls.Add(this.websitemiz_button, 0, 2);
+            this.tableLayout_menu.Name = "tableLayout_menu";
             // 
             // button_girisyap
             // 
@@ -214,12 +247,24 @@
             this.button_girisyap.UseVisualStyleBackColor = true;
             this.button_girisyap.Click += new System.EventHandler(this.girisyap_button_Click);
             // 
+            // button_gitHub
+            // 
+            resources.ApplyResources(this.button_gitHub, "button_gitHub");
+            this.button_gitHub.Name = "button_gitHub";
+            this.button_gitHub.UseVisualStyleBackColor = true;
+            this.button_gitHub.Click += new System.EventHandler(this.button1_Click);
+            // 
             // panel_ogrenci
             // 
+            this.panel_ogrenci.Controls.Add(this.label3);
             this.panel_ogrenci.Controls.Add(this.button_ogrenci_duyuru);
-            this.panel_ogrenci.Controls.Add(this.button2);
             resources.ApplyResources(this.panel_ogrenci, "panel_ogrenci");
             this.panel_ogrenci.Name = "panel_ogrenci";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
             // 
             // button_ogrenci_duyuru
             // 
@@ -227,13 +272,6 @@
             this.button_ogrenci_duyuru.Name = "button_ogrenci_duyuru";
             this.button_ogrenci_duyuru.UseVisualStyleBackColor = true;
             this.button_ogrenci_duyuru.Click += new System.EventHandler(this.button_ogrenci_duyuru_Click);
-            // 
-            // button2
-            // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox_profilFoto
             // 
@@ -500,13 +538,6 @@
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             // 
-            // panel_ogretmen
-            // 
-            this.panel_ogretmen.Controls.Add(this.button_ogretmen_duyurular);
-            this.panel_ogretmen.Controls.Add(this.button_ogretmen_panel);
-            resources.ApplyResources(this.panel_ogretmen, "panel_ogretmen");
-            this.panel_ogretmen.Name = "panel_ogretmen";
-            // 
             // button_ogretmen_duyurular
             // 
             resources.ApplyResources(this.button_ogretmen_duyurular, "button_ogretmen_duyurular");
@@ -518,7 +549,6 @@
             // 
             resources.ApplyResources(this.button_ogretmen_panel, "button_ogretmen_panel");
             this.button_ogretmen_panel.Name = "button_ogretmen_panel";
-            this.button_ogretmen_panel.UseVisualStyleBackColor = true;
             // 
             // panel1
             // 
@@ -550,53 +580,170 @@
             this.tableLayout_kullaniciBilgileri.Controls.Add(this.label_ad, 0, 0);
             this.tableLayout_kullaniciBilgileri.Name = "tableLayout_kullaniciBilgileri";
             // 
-            // label_ad
+            // label_sansliSayilar
             // 
-            resources.ApplyResources(this.label_ad, "label_ad");
-            this.label_ad.Name = "label_ad";
-            // 
-            // label_soyad
-            // 
-            resources.ApplyResources(this.label_soyad, "label_soyad");
-            this.label_soyad.Name = "label_soyad";
+            resources.ApplyResources(this.label_sansliSayilar, "label_sansliSayilar");
+            this.label_sansliSayilar.Name = "label_sansliSayilar";
             // 
             // label_roller
             // 
             resources.ApplyResources(this.label_roller, "label_roller");
             this.label_roller.Name = "label_roller";
             // 
-            // label_sansliSayilar
+            // label_soyad
             // 
-            resources.ApplyResources(this.label_sansliSayilar, "label_sansliSayilar");
-            this.label_sansliSayilar.Name = "label_sansliSayilar";
+            resources.ApplyResources(this.label_soyad, "label_soyad");
+            this.label_soyad.Name = "label_soyad";
             // 
-            // tableLayout_menu
+            // label_ad
             // 
-            resources.ApplyResources(this.tableLayout_menu, "tableLayout_menu");
-            this.tableLayout_menu.Controls.Add(this.hakkimizda_button, 0, 0);
-            this.tableLayout_menu.Controls.Add(this.button_girisyap, 0, 1);
-            this.tableLayout_menu.Controls.Add(this.button_gitHub, 0, 3);
-            this.tableLayout_menu.Controls.Add(this.websitemiz_button, 0, 2);
-            this.tableLayout_menu.Name = "tableLayout_menu";
+            resources.ApplyResources(this.label_ad, "label_ad");
+            this.label_ad.Name = "label_ad";
             // 
-            // tableLayoutPanel2
+            // panel_ogretmen
             // 
-            resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
-            this.tableLayoutPanel2.Controls.Add(this.tableLayout_menu, 1, 0);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.panel_ogretmen.Controls.Add(this.label4);
+            this.panel_ogretmen.Controls.Add(this.button_ogretmen_duyurular);
+            resources.ApplyResources(this.panel_ogretmen, "panel_ogretmen");
+            this.panel_ogretmen.Name = "panel_ogretmen";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // panel_not_tutucu
+            // 
+            this.panel_not_tutucu.Controls.Add(this.button_kirmizi);
+            this.panel_not_tutucu.Controls.Add(this.label7);
+            this.panel_not_tutucu.Controls.Add(this.richTextBox1);
+            this.panel_not_tutucu.Controls.Add(this.checkBox_altiCizgili);
+            this.panel_not_tutucu.Controls.Add(this.label6);
+            this.panel_not_tutucu.Controls.Add(this.checkBox_kalin);
+            this.panel_not_tutucu.Controls.Add(this.button2);
+            this.panel_not_tutucu.Controls.Add(this.checkBox_italik);
+            this.panel_not_tutucu.Controls.Add(this.radioButton7);
+            this.panel_not_tutucu.Controls.Add(this.button_mavi);
+            this.panel_not_tutucu.Controls.Add(this.button6);
+            this.panel_not_tutucu.Controls.Add(this.radioButton_sol);
+            this.panel_not_tutucu.Controls.Add(this.radioButton6);
+            this.panel_not_tutucu.Controls.Add(this.button_siyah);
+            resources.ApplyResources(this.panel_not_tutucu, "panel_not_tutucu");
+            this.panel_not_tutucu.Name = "panel_not_tutucu";
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label6
+            // 
+            resources.ApplyResources(this.label6, "label6");
+            this.label6.Name = "label6";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // radioButton7
+            // 
+            resources.ApplyResources(this.radioButton7, "radioButton7");
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.TabStop = true;
+            this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            // 
+            // radioButton6
+            // 
+            resources.ApplyResources(this.radioButton6, "radioButton6");
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.TabStop = true;
+            this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
+            // 
+            // radioButton_sol
+            // 
+            resources.ApplyResources(this.radioButton_sol, "radioButton_sol");
+            this.radioButton_sol.Name = "radioButton_sol";
+            this.radioButton_sol.TabStop = true;
+            this.radioButton_sol.UseVisualStyleBackColor = true;
+            this.radioButton_sol.CheckedChanged += new System.EventHandler(this.radioButton_sol_CheckedChanged);
+            // 
+            // checkBox_italik
+            // 
+            resources.ApplyResources(this.checkBox_italik, "checkBox_italik");
+            this.checkBox_italik.Name = "checkBox_italik";
+            this.checkBox_italik.UseVisualStyleBackColor = true;
+            this.checkBox_italik.CheckedChanged += new System.EventHandler(this.checkBox_italik_CheckedChanged);
+            // 
+            // checkBox_altiCizgili
+            // 
+            resources.ApplyResources(this.checkBox_altiCizgili, "checkBox_altiCizgili");
+            this.checkBox_altiCizgili.Name = "checkBox_altiCizgili";
+            this.checkBox_altiCizgili.UseVisualStyleBackColor = true;
+            this.checkBox_altiCizgili.CheckedChanged += new System.EventHandler(this.checkBox_altiCizgili_CheckedChanged);
+            // 
+            // checkBox_kalin
+            // 
+            resources.ApplyResources(this.checkBox_kalin, "checkBox_kalin");
+            this.checkBox_kalin.Name = "checkBox_kalin";
+            this.checkBox_kalin.UseVisualStyleBackColor = true;
+            this.checkBox_kalin.CheckedChanged += new System.EventHandler(this.checkBox_kalin_CheckedChanged);
+            // 
+            // button_mavi
+            // 
+            this.button_mavi.BackColor = System.Drawing.Color.Blue;
+            resources.ApplyResources(this.button_mavi, "button_mavi");
+            this.button_mavi.Name = "button_mavi";
+            this.button_mavi.UseVisualStyleBackColor = false;
+            this.button_mavi.Click += new System.EventHandler(this.button_mavi_Click);
+            // 
+            // button_siyah
+            // 
+            this.button_siyah.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.button_siyah, "button_siyah");
+            this.button_siyah.Name = "button_siyah";
+            this.button_siyah.UseVisualStyleBackColor = false;
+            this.button_siyah.Click += new System.EventHandler(this.button_siyah_Click);
+            // 
+            // button_kirmizi
+            // 
+            this.button_kirmizi.BackColor = System.Drawing.Color.Red;
+            resources.ApplyResources(this.button_kirmizi, "button_kirmizi");
+            this.button_kirmizi.Name = "button_kirmizi";
+            this.button_kirmizi.UseVisualStyleBackColor = false;
+            this.button_kirmizi.Click += new System.EventHandler(this.button_kirmizi_Click);
+            // 
+            // button6
+            // 
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.Name = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // richTextBox1
+            // 
+            resources.ApplyResources(this.richTextBox1, "richTextBox1");
+            this.richTextBox1.Name = "richTextBox1";
             // 
             // FormAna
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel_not_tutucu);
+            this.Controls.Add(this.panel_ogretmen);
             this.Controls.Add(this.panel_ana_sayfa);
             this.Controls.Add(this.panel_ogrenci);
             this.Controls.Add(this.panel_hesapMakinesi);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel_gorevli);
             this.Controls.Add(this.panel_okulRadyo);
-            this.Controls.Add(this.panel_ogretmen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
@@ -607,7 +754,10 @@
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sukol_icon)).EndInit();
             this.panel_ana_sayfa.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayout_menu.ResumeLayout(false);
             this.panel_ogrenci.ResumeLayout(false);
+            this.panel_ogrenci.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_profilFoto)).EndInit();
             this.panel_gorevli.ResumeLayout(false);
             this.panel_gorevli.PerformLayout();
@@ -617,14 +767,15 @@
             this.panel_okulRadyo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
-            this.panel_ogretmen.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.tableLayout_topPanel.ResumeLayout(false);
             this.tableLayout_foto.ResumeLayout(false);
             this.tableLayout_kullaniciBilgileri.ResumeLayout(false);
             this.tableLayout_kullaniciBilgileri.PerformLayout();
-            this.tableLayout_menu.ResumeLayout(false);
-            this.tableLayoutPanel2.ResumeLayout(false);
+            this.panel_ogretmen.ResumeLayout(false);
+            this.panel_ogretmen.PerformLayout();
+            this.panel_not_tutucu.ResumeLayout(false);
+            this.panel_not_tutucu.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -644,7 +795,6 @@
         private System.Windows.Forms.Button button_girisyap;
         private System.Windows.Forms.Button button_gitHub;
         private System.Windows.Forms.Panel panel_ogrenci;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.PictureBox pictureBox_profilFoto;
         private System.Windows.Forms.Button button_profilFoto;
         private System.Windows.Forms.OpenFileDialog openFileDialog_profilFoto;
@@ -689,7 +839,7 @@
         private System.Windows.Forms.Button button_oynat;
         private System.Windows.Forms.Button button_duraklat;
         private System.Windows.Forms.Button button_ogrenci_duyuru;
-        private System.Windows.Forms.Panel panel_ogretmen;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button_ogretmen_duyurular;
         private System.Windows.Forms.Button button_ogretmen_panel;
         private System.Windows.Forms.Panel panel1;
@@ -702,6 +852,24 @@
         private System.Windows.Forms.Label label_ad;
         private System.Windows.Forms.TableLayoutPanel tableLayout_menu;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Panel panel_ogretmen;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ToolStripMenuItem notTutucuToolStripMenuItem;
+        private System.Windows.Forms.Panel panel_not_tutucu;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton_sol;
+        private System.Windows.Forms.CheckBox checkBox_italik;
+        private System.Windows.Forms.CheckBox checkBox_altiCizgili;
+        private System.Windows.Forms.CheckBox checkBox_kalin;
+        private System.Windows.Forms.Button button_mavi;
+        private System.Windows.Forms.Button button_siyah;
+        private System.Windows.Forms.Button button_kirmizi;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button2;
     }
 }
 
