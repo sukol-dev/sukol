@@ -43,9 +43,9 @@ namespace Sukol
             labelSoyIsimYazan.Visible = true;
             label_roller.Visible = true;
             string roller = "";
-            if (ogrenci) roller += "öğrenci,"; kullanici.ogrenci = this.ogrenci;
-            if (ogretmen) roller += "öğretmen,"; kullanici.ogretmen = this.ogretmen;
-            if (gorevli) roller += "görevli,"; kullanici.gorevli = this.gorevli;
+            if (ogrenci) roller += "öğrenci,";
+            if (ogretmen) roller += "öğretmen,";
+            if (gorevli) roller += "görevli,";
             roller = roller.Remove(roller.Length - 1);
             label_rollerYazan.Text = roller;
             label_rollerYazan.Visible = true;
@@ -127,6 +127,11 @@ namespace Sukol
         private void anaSayfaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             panel_ana_sayfa.BringToFront();
+        }
+
+        private void öğretmenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel_ogretmen.BringToFront();
         }
 
         private void görevliToolStripMenuItem_Click(object sender, EventArgs e)
@@ -350,12 +355,17 @@ namespace Sukol
 
         private void button_duyuruEkle_Click(object sender, EventArgs e)
         {
-            new DuyuruPaneli(kullanici);
+            new DuyuruPaneli(kullanici, true);
         }
 
         private void button_ogrenci_duyuru_Click(object sender, EventArgs e)
         {
-            new DuyuruPaneli(kullanici);
+            new DuyuruPaneli(kullanici, false);
+        }
+
+        private void button_ogretmen_duyurular_Click(object sender, EventArgs e)
+        {
+            new DuyuruPaneli(kullanici, false);
         }
     }
 }

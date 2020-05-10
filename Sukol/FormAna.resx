@@ -121,37 +121,13 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
   <data name="anaSayfaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
   </data>
   <data name="anaSayfaToolStripMenuItem.Text" xml:space="preserve">
     <value>Ana Sayfa</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="görevliToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -179,12 +155,6 @@
   <data name="öğretmenToolStripMenuItem.Text" xml:space="preserve">
     <value>Öğretmen</value>
   </data>
-  <data name="diğerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="diğerToolStripMenuItem.Text" xml:space="preserve">
-    <value>Diğer</value>
-  </data>
   <data name="hesapMakinesiToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 22</value>
   </data>
@@ -197,6 +167,36 @@
   <data name="okulRadyosuToolStripMenuItem1.Text" xml:space="preserve">
     <value>Okul Radyosu</value>
   </data>
+  <data name="diğerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="diğerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Diğer</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="sukol_icon.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -204,7 +204,7 @@
   <data name="sukol_icon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAATgAAAGDCAYAAAC/cgzcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAASK9JREFUeF7tnQd4FMf5xg1INAPudpw4f9sQN+K4EXCNbdwbdtxb3OIW927HcTeu
+        vgAADr4B6kKxwAAASK9JREFUeF7tnQd4FMf5xg1INAPudpw4f9sQN+K4EXCNbdwbdtxb3OIW927HcTeu
         cYvpmI4Nppree+9SJKGCkECoUIWsdm1vd/b/zupEhLjb3Tvd6drL8+wjQHu7M7+dfe+b+cocdhj/kAAJ
         kAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJ
         kAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJkAAJ
@@ -607,66 +607,6 @@
   <data name="&gt;&gt;hakkimizda_button.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;button_cikisYap.Name" xml:space="preserve">
-    <value>button_cikisYap</value>
-  </data>
-  <data name="&gt;&gt;button_cikisYap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_cikisYap.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;button_cikisYap.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;button_girisyap.Name" xml:space="preserve">
-    <value>button_girisyap</value>
-  </data>
-  <data name="&gt;&gt;button_girisyap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_girisyap.Parent" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;button_girisyap.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 203</value>
-  </data>
-  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 354</value>
-  </data>
-  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
-    <value>panel_ana_sayfa</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="button_cikisYap.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -768,6 +708,30 @@
   </data>
   <data name="&gt;&gt;button_girisyap.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="panel_ana_sayfa.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_ana_sayfa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 203</value>
+  </data>
+  <data name="panel_ana_sayfa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 354</value>
+  </data>
+  <data name="panel_ana_sayfa.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Name" xml:space="preserve">
+    <value>panel_ana_sayfa</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_ana_sayfa.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="labelIsim.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -895,6 +859,84 @@
   <data name="&gt;&gt;labelSoyIsimYazan.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="button_ogretmen_duyurular.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_ogretmen_duyurular.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 35</value>
+  </data>
+  <data name="button_ogretmen_duyurular.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="button_ogretmen_duyurular.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="button_ogretmen_duyurular.Text" xml:space="preserve">
+    <value>Duyurular</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_duyurular.Name" xml:space="preserve">
+    <value>button_ogretmen_duyurular</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_duyurular.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_duyurular.Parent" xml:space="preserve">
+    <value>panel_ogretmen</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_duyurular.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button_ogretmen_panel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button_ogretmen_panel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 6</value>
+  </data>
+  <data name="button_ogretmen_panel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 23</value>
+  </data>
+  <data name="button_ogretmen_panel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button_ogretmen_panel.Text" xml:space="preserve">
+    <value>Öğrenci panel</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_panel.Name" xml:space="preserve">
+    <value>button_ogretmen_panel</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_panel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_panel.Parent" xml:space="preserve">
+    <value>panel_ogretmen</value>
+  </data>
+  <data name="&gt;&gt;button_ogretmen_panel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panel_ogretmen.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_ogretmen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_ogretmen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 354</value>
+  </data>
+  <data name="panel_ogretmen.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel_ogretmen.Name" xml:space="preserve">
+    <value>panel_ogretmen</value>
+  </data>
+  <data name="&gt;&gt;panel_ogretmen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_ogretmen.Parent" xml:space="preserve">
+    <value>panel_ogrenci</value>
+  </data>
+  <data name="&gt;&gt;panel_ogretmen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="button_ogrenci_duyuru.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 35</value>
   </data>
@@ -917,7 +959,7 @@
     <value>panel_ogrenci</value>
   </data>
   <data name="&gt;&gt;button_ogrenci_duyuru.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 6</value>
@@ -941,7 +983,7 @@
     <value>panel_ogrenci</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="panel_ogrenci.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -1093,174 +1135,6 @@
   <data name="&gt;&gt;label_rollerYazan.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_duyuruEkle.Name" xml:space="preserve">
-    <value>button_duyuruEkle</value>
-  </data>
-  <data name="&gt;&gt;button_duyuruEkle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_duyuruEkle.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;button_duyuruEkle.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;button_YeniSinif.Name" xml:space="preserve">
-    <value>button_YeniSinif</value>
-  </data>
-  <data name="&gt;&gt;button_YeniSinif.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_YeniSinif.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;button_YeniSinif.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textBox_yeniSinif.Name" xml:space="preserve">
-    <value>textBox_yeniSinif</value>
-  </data>
-  <data name="&gt;&gt;textBox_yeniSinif.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox_yeniSinif.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;textBox_yeniSinif.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label_yeniSinif.Name" xml:space="preserve">
-    <value>label_yeniSinif</value>
-  </data>
-  <data name="&gt;&gt;label_yeniSinif.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_yeniSinif.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;label_yeniSinif.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgretmen.Name" xml:space="preserve">
-    <value>listView_sinifOgretmen</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgretmen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgretmen.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgretmen.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgrenci.Name" xml:space="preserve">
-    <value>listView_sinifOgrenci</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgrenci.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgrenci.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;listView_sinifOgrenci.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgretmenListesi.Name" xml:space="preserve">
-    <value>label_sinifOgretmenListesi</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgretmenListesi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgretmenListesi.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgretmenListesi.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgrenciListesi.Name" xml:space="preserve">
-    <value>label_sinifOgrenciListesi</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgrenciListesi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgrenciListesi.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;label_sinifOgrenciListesi.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;label_siniflar.Name" xml:space="preserve">
-    <value>label_siniflar</value>
-  </data>
-  <data name="&gt;&gt;label_siniflar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_siniflar.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;label_siniflar.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;listBox_siniflar.Name" xml:space="preserve">
-    <value>listBox_siniflar</value>
-  </data>
-  <data name="&gt;&gt;listBox_siniflar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;listBox_siniflar.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;listBox_siniflar.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="panel_gorevli.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_gorevli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel_gorevli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 557</value>
-  </data>
-  <data name="panel_gorevli.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;panel_gorevli.Name" xml:space="preserve">
-    <value>panel_gorevli</value>
-  </data>
-  <data name="&gt;&gt;panel_gorevli.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_gorevli.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_gorevli.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
   <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1387,6 +1261,24 @@
   <data name="&gt;&gt;label_yeniSinif.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>İsim Soyisim</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>96</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Kullanıcı Adı</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>84</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
   <data name="listView_sinifOgretmen.Location" type="System.Drawing.Point, System.Drawing">
     <value>696, 29</value>
   </data>
@@ -1411,23 +1303,26 @@
   <data name="&gt;&gt;listView_sinifOgretmen.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
+  <data name="isim_soyisim.Text" xml:space="preserve">
     <value>İsim Soyisim</value>
   </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+  <data name="isim_soyisim.Width" type="System.Int32, mscorlib">
     <value>96</value>
   </data>
-  <data name="columnHeader2.Text" xml:space="preserve">
+  <data name="numara.Text" xml:space="preserve">
+    <value>Numara</value>
+  </data>
+  <data name="numara.Width" type="System.Int32, mscorlib">
+    <value>114</value>
+  </data>
+  <data name="k_adi.Text" xml:space="preserve">
     <value>Kullanıcı Adı</value>
   </data>
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>84</value>
+  <data name="k_adi.Width" type="System.Int32, mscorlib">
+    <value>85</value>
   </data>
-  <data name="columnHeader3.Text" xml:space="preserve">
+  <data name="sifre.Text" xml:space="preserve">
     <value>Şifre</value>
-  </data>
-  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
-    <value>74</value>
   </data>
   <data name="listView_sinifOgrenci.Location" type="System.Drawing.Point, System.Drawing">
     <value>302, 29</value>
@@ -1452,27 +1347,6 @@
   </data>
   <data name="&gt;&gt;listView_sinifOgrenci.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="isim_soyisim.Text" xml:space="preserve">
-    <value>İsim Soyisim</value>
-  </data>
-  <data name="isim_soyisim.Width" type="System.Int32, mscorlib">
-    <value>96</value>
-  </data>
-  <data name="numara.Text" xml:space="preserve">
-    <value>Numara</value>
-  </data>
-  <data name="numara.Width" type="System.Int32, mscorlib">
-    <value>114</value>
-  </data>
-  <data name="k_adi.Text" xml:space="preserve">
-    <value>Kullanıcı Adı</value>
-  </data>
-  <data name="k_adi.Width" type="System.Int32, mscorlib">
-    <value>85</value>
-  </data>
-  <data name="sifre.Text" xml:space="preserve">
-    <value>Şifre</value>
   </data>
   <data name="label_sinifOgretmenListesi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1615,6 +1489,30 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="panel_gorevli.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_gorevli.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_gorevli.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 557</value>
+  </data>
+  <data name="panel_gorevli.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Name" xml:space="preserve">
+    <value>panel_gorevli</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_gorevli.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
   <data name="label_sansliSayi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1641,150 +1539,6 @@
   </data>
   <data name="&gt;&gt;label_sansliSayi.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;label_hesapmakSonuc.Name" xml:space="preserve">
-    <value>label_hesapmakSonuc</value>
-  </data>
-  <data name="&gt;&gt;label_hesapmakSonuc.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label_hesapmakSonuc.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;label_hesapmakSonuc.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Name" xml:space="preserve">
-    <value>radioButton1</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;radioButton1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
-    <value>radioButton2</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;radioButton2.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Name" xml:space="preserve">
-    <value>radioButton3</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;radioButton3.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Name" xml:space="preserve">
-    <value>radioButton4</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.Parent" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="panel_hesapMakinesi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_hesapMakinesi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 203</value>
-  </data>
-  <data name="panel_hesapMakinesi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 354</value>
-  </data>
-  <data name="panel_hesapMakinesi.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Name" xml:space="preserve">
-    <value>panel_hesapMakinesi</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_hesapMakinesi.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="label_hesapmakSonuc.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2065,83 +1819,35 @@
   <data name="&gt;&gt;radioButton4.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="panel_hesapMakinesi.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_hesapMakinesi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 203</value>
+  </data>
+  <data name="panel_hesapMakinesi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 354</value>
+  </data>
+  <data name="panel_hesapMakinesi.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Name" xml:space="preserve">
+    <value>panel_hesapMakinesi</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_hesapMakinesi.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="openFileDialog_radyo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>272, 8</value>
   </metadata>
   <data name="openFileDialog_radyo.Filter" xml:space="preserve">
     <value>Audio (*.cs,*.acc,*wma)|*.cs;*.mp3;*.wma</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
-    <value>trackBar1</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button_oynat.Name" xml:space="preserve">
-    <value>button_oynat</value>
-  </data>
-  <data name="&gt;&gt;button_oynat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_oynat.Parent" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;button_oynat.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;button_duraklat.Name" xml:space="preserve">
-    <value>button_duraklat</value>
-  </data>
-  <data name="&gt;&gt;button_duraklat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button_duraklat.Parent" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;button_duraklat.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;axWindowsMediaPlayer1.Name" xml:space="preserve">
-    <value>axWindowsMediaPlayer1</value>
-  </data>
-  <data name="&gt;&gt;axWindowsMediaPlayer1.Type" xml:space="preserve">
-    <value>AxWMPLib.AxWindowsMediaPlayer, AxInterop.WMPLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;axWindowsMediaPlayer1.Parent" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panel_okulRadyo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="panel_okulRadyo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panel_okulRadyo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1057, 557</value>
-  </data>
-  <data name="panel_okulRadyo.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Name" xml:space="preserve">
-    <value>panel_okulRadyo</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel_okulRadyo.ZOrder" xml:space="preserve">
-    <value>15</value>
   </data>
   <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
     <value>377, 155</value>
@@ -2252,6 +1958,30 @@
   </data>
   <data name="&gt;&gt;axWindowsMediaPlayer1.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="panel_okulRadyo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="panel_okulRadyo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panel_okulRadyo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1057, 557</value>
+  </data>
+  <data name="panel_okulRadyo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Name" xml:space="preserve">
+    <value>panel_okulRadyo</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel_okulRadyo.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
