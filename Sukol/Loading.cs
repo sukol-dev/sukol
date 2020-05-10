@@ -38,7 +38,7 @@ namespace Sukol
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (cycle == 0)
+            if (cycle == -5)
             {
                 timer1.Stop();
                 Close();
@@ -49,6 +49,7 @@ namespace Sukol
 
             progressBar1.PerformStep();
             cycle--;
+
         }
     }
 }

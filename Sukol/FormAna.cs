@@ -66,7 +66,7 @@ namespace Sukol
         {
             InitializeComponent();
 
-            new Loading(0, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
+            new Loading(2, new string[] {"Bağlanıyor...", "Veritabanı yükleniyor", "Birşeyler oluyor", "Bitiyor...", "Bitmiyor"});
 
             panel_ana_sayfa.BringToFront();
         }
