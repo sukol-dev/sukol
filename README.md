@@ -1,6 +1,6 @@
 # C# programlama II ödevi
 
-İstanbul Üniversitesi-Cerrahpaşa c# programlama II dersi bilgisayar programcılığı örgün öğretim ödevi
+İstanbul Üniversitesi-Cerrahpaşa bilgisayar programcılığı örgün öğretim c# programlama II dersi ödevi
 
 ## Roller
 
